@@ -11,7 +11,17 @@ export default function Home() {
         description="Ataraxia is a non-profit organization dedicated to improving the mental health of our homeless population."
         canonical="https://ataraxia.envisionnew.org/"
         openGraph={{
-          url: "https://ataraxia.envisionnew.org/",
+          url: "https://ataraxia.envisionnew.org",
+          title: "Ataraxia",
+          description:
+            "Ataraxia is a non-profit organization dedicated to improving the mental health of our homeless population.",
+          images: [
+            {
+              url: "../favicons/send.png",
+              alt: "Ataraxia's Logo",
+            },
+          ],
+          site_name: "Ataraxia – a non-profit organization.",
         }}
       />
       <Head>

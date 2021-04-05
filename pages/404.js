@@ -12,6 +12,15 @@ export default function Contact() {
         canonical="https://ataraxia.envisionnew.org/404"
         openGraph={{
           url: "https://ataraxia.envisionnew.org/404",
+          title: "Ataraxia",
+          description: "404 page for missing pages",
+          images: [
+            {
+              url: "../favicons/send.png",
+              alt: "Ataraxia's Logo",
+            },
+          ],
+          site_name: "Ataraxia – a non-profit organization.",
         }}
       />
       <Head>
