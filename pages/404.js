@@ -5,13 +5,13 @@ import { NextSeo } from "next-seo";
 
 export default function Contact() {
   return (
-    <div className="text-black bg-black">
+    <div className="text-black bg-white">
       <NextSeo
-        title="404: nine4"
-        description="404 page for all our missing pages"
-        canonical="https://nine4-3.vercel.app/404"
+        title="404: Ataraxia"
+        description="404 page for missing pages"
+        canonical="https://ataraxia.envisionnew.org/404"
         openGraph={{
-          url: "https://nine4-3.vercel.app/404",
+          url: "https://ataraxia.envisionnew.org/404",
         }}
       />
       <Head>
