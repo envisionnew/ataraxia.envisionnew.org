@@ -17,7 +17,7 @@ export default function Home() {
             "Ataraxia is a non-profit organization dedicated to improving the mental health of our homeless population.",
           images: [
             {
-              url: "../favicons/send.png",
+              url: "/favicon/send.png",
               alt: "Ataraxia's Logo",
             },
           ],
