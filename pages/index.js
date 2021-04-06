@@ -68,8 +68,8 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-center mx-auto">
           <img
             className="object-cover object-center w-3/4 border rounded shadow-md g327"
-            alt="Placeholder Image"
-            src="./images/placeholder.jpg"
+            alt="Picture of all the kits being delivered"
+            src="/images/main.jpg"
           ></img>
         </div>
         <section id="about">
@@ -77,11 +77,14 @@ export default function Home() {
             About
           </h2>
           <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-300 fs521 lg:w-1/3">
+          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
             Ataraxia is a non-profit organization incubated by Project enVision
             U.S. that is dedicated to end mental health illnesses in the
             homeless population.
           </p>
+          <div className="flex justify-center mt-6">
+            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
+          </div>
           <div className="max-w-4xl pt-12 mx-auto fsac4">
             <div class="ktq4">
               <center>
@@ -121,9 +124,14 @@ export default function Home() {
             Kits
           </h2>
           <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-300 fs521 lg:w-1/3">
-            Our mental health kits come with the following items.
+          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
+            Our mental health kits are crafted with help from professionals and
+            researchers in the field. Our goal is to create strong kits at an
+            affordable price to increase reproducibility.
           </p>
+          <div className="flex justify-center mt-6">
+            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
+          </div>
           <div className="max-w-6xl pt-32 pb-32 mx-auto fsac4">
             <div class="ktq4">
               <img src="../images/kit2.jpg"></img>
@@ -131,7 +139,20 @@ export default function Home() {
                 Kit Contents
               </h3>
               <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                [Information]
+                Pamphlet: includes key information to encourage healthy living
+                and alleviate anxiety and stress + tips to stay safe during the
+                pandemic
+                <br />
+                Crayons: coloring is shown to relax the mind inducing a quiet
+                and mindful state + helps alleviate stress and anxiety
+                <br />
+                Stress ball: Squeezing helps reduce anxiety and stress + helps
+                treat carpal tunnel and improve concentration
+                <br />
+                Water bottle w/ filter: can store clean water even if not
+                purified
+                <br />
+                Bag: Useful storage device for homeless
               </p>
             </div>
             <div class="ktq4">
@@ -140,7 +161,9 @@ export default function Home() {
                 Completed Kit
               </h3>
               <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                [Information]
+                Kits are created and assembled by our volunteers. Once
+                completed, they are delivered to homeless shelters through
+                numerous different organizations.
               </p>
             </div>
           </div>
@@ -150,13 +173,16 @@ export default function Home() {
             COVID-19
           </h2>
           <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-300 fs521 lg:w-1/3">
+          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
             COVID-19 has rapidly strengthened inequalities and those most
             forgotten in these difficult times are the homeless population.
             We've been creating <span className="underline">hygiene kits</span>{" "}
             to serve the homeless population in this crisis. Learn more
             information about our current drive below.
           </p>
+          <div className="flex justify-center mt-6">
+            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
+          </div>
           <div className="max-w-4xl pt-12 mx-auto fsac3">
             <div class="ktq4">
               <center>
@@ -166,7 +192,7 @@ export default function Home() {
                 Hygiene Drive
               </h3>
               <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                [Information]
+                More information will be available soon.
               </p>
             </div>
           </div>
@@ -176,10 +202,13 @@ export default function Home() {
             Courses
           </h2>
           <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-300 fs521 lg:w-1/3">
+          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
             Ataraxia has been developing online courses aimed at providing
             knowledge about mental health and ways to be supportive.
           </p>
+          <div className="flex justify-center mt-6">
+            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
+          </div>
           <div className="max-w-4xl pt-12 mx-auto fsac3">
             <div class="ktq4">
               <center>
@@ -189,7 +218,8 @@ export default function Home() {
                 Course Information
               </h3>
               <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                [Information]
+                Courses are still in development and will be released when
+                completed. Stay tuned!
               </p>
             </div>
           </div>
