@@ -101,7 +101,7 @@ export default function Header() {
           </a>
           <a
             data-v-54e46119=""
-            href="https://github.com/minor/ataraxiaweb/"
+            href="https://github.com/envisionnew/ataraxia.envisionnew.org/"
             rel="noopener noreferrer"
             target="_blank"
             className="invisible pl-7 md:visible"
