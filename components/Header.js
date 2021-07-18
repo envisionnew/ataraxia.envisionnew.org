@@ -1,42 +1,46 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import { useTheme } from "next-themes";
+import Link from "next/link";
 
 export default function Header() {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
-  const [flyer, setFlyer] = React.useState(false);
-  const [flyerTwo, setFlyerTwo] = React.useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
+
+  // When mounted on client, now we can show the UI
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
 
   return (
-    <header class="fixed top-0 w-full clearNav z-50">
-      <div class="max-w-5xl mx-auto flex flex-wrap p-5 flex-col md:flex-row">
-        <div className="flex flex-row items-center justify-between p-3 md:p-1">
-          <a
-            href="/"
-            class="flex title-font font-medium text-gray-900 mb-4 md:mb-0"
-          >
-            {/* <img src="../favicon/favicon-32x32.png" /> */}
-            <h1 class="text-2xl">ATARAXIA</h1>
-          </a>
+    <header className="w-full sticky-nav">
+      <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
+        <div className="flex flex-row items-center justify-between p-2 md:p-1">
+          <Link href="/">
+            <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0">
+              ATARAXIA
+            </a>
+          </Link>
           <button
-            className="content-end px-3 py-1 pb-4 ml-auto leading-none text-black outline-none cursor-pointer md:hidden focus:outline-none"
+            className="px-3 py-1 pb-4 ml-auto text-black outline-none dark:text-gray-300 md:hidden"
             type="button"
             aria-label="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="black"
+              stroke="currentColor"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="feather feather-menu"
+              className="w-6 h-6"
             >
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
+              <line x1="3" y1="6" y2="6" x2="21"></line>
+              <line x1="3" y1="12" y2="12" x2="21"></line>
+              <line x1="3" y1="18" y2="18" x2="21"></line>
             </svg>
           </button>
         </div>
@@ -46,84 +50,76 @@ export default function Header() {
             (navbarOpen ? " flex" : " hidden")
           }
         >
-          <div class="md:ml-auto md:mr-auto font-4 pt-1 md:pl-14 pl-1 flex flex-wrap items-center md:text-base text-1xl md:justify-center justify-items-start">
+          <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
             <a
-              class="mr-11 pr-2 cursor-pointer text-gray-900 hover:text-white font-semibold tr04"
-              href="#about"
+              href="/#about"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               About
             </a>
             <a
-              class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-900 hover:text-white font-semibold tr04"
-              href="#kits"
+              href="/#resources"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
+            >
+              Resources
+            </a>
+            <a
+              href="/#kits"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Kits
             </a>
+            <Link href="/courses">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Courses
+              </a>
+            </Link>
             <a
-              class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-900 hover:text-white font-semibold tr04"
-              href="#COVID"
+              href="/#join"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
-              COVID-19
-            </a>
-            <a
-              class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-900 hover:text-white font-semibold tr04"
-              href="#courses"
-            >
-              Courses
-            </a>
-            <a
-              className="inline-flex items-center px-4 py-2 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent bg-gray-900 rounded-lg text-md md:mt-0 md:ml-4"
-              href="https://donorbox.org/ataraxia-project-envision-us/"
-            >
-              <span className="justify-center">Donate</span>
+              Join
             </a>
           </div>
+          <button
+            aria-label="Toggle Dark Mode"
+            type="button"
+            className="w-10 h-10 p-3 ml-5 mr-0 bg-gray-200 rounded md:ml-0 md:mr-5 dark:bg-gray-800"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          >
+            {mounted && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="currentColor"
+                className="w-4 h-4 text-gray-800 dark:text-gray-200"
+              >
+                {theme === "dark" ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                  />
+                ) : (
+                  <svg className="svg-icon" viewBox="0 0 20 20">
+                    <path
+                      fill="none"
+                      d="M10.544 8.717l1.166-.855 1.166.855-.467-1.399 1.012-.778h-1.244l-.467-1.243-.466 1.244H10l1.011.778-.467 1.398zm5.442.855l-.467 1.244h-1.244l1.011.777-.467 1.4 1.167-.855 1.165.855-.466-1.4 1.011-.777h-1.244l-.466-1.244zm-8.979-3.02c0-2.259.795-4.33 2.117-5.955A9.418 9.418 0 00.594 9.98c0 5.207 4.211 9.426 9.406 9.426 2.94 0 5.972-1.354 7.696-3.472-.289.026-.987.044-1.283.044-5.194.001-9.406-4.219-9.406-9.426M10 18.55c-4.715 0-8.551-3.845-8.551-8.57 0-3.783 2.407-6.999 5.842-8.131a10.32 10.32 0 00-1.139 4.703c0 5.368 4.125 9.788 9.365 10.245A9.733 9.733 0 0110 18.55m9.406-16.246h-1.71l-.642-1.71-.642 1.71h-1.71l1.39 1.069-.642 1.924 1.604-1.176 1.604 1.176-.642-1.924 1.39-1.069z"
+                    />
+                  </svg>
+                )}
+              </svg>
+            )}
+          </button>
           <a
-            href="mailto:saurish@envisionnew.org"
+            href="https://donorbox.org/ataraxia-project-envision-us/"
             rel="noopener noreferrer"
             target="_blank"
-            className="invisible md:visible"
+            className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-              />
-            </svg>
-          </a>
-          <a
-            data-v-54e46119=""
-            href="https://github.com/envisionnew/ataraxia.envisionnew.org/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible pl-7 md:visible"
-          >
-            <svg
-              data-v-54e46119=""
-              width="30"
-              height="20"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              title="GitHub logo"
-              class="github-link--logo"
-            >
-              <path
-                data-v-54e46119=""
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12.3019 0C5.50526 0 0 5.50526 0 12.3019C0 17.7392 3.52669 22.3458 8.4127 23.977C9.0244 24.0902 9.25095 23.7126 9.25095 23.3804C9.25095 23.0858 9.2434 22.3156 9.23585 21.2885C5.81488 22.0286 5.08991 19.6422 5.08991 19.6422C4.53108 18.2225 3.72304 17.8373 3.72304 17.8373C2.60537 17.0746 3.80611 17.0897 3.80611 17.0897C5.03705 17.1803 5.69405 18.3584 5.69405 18.3584C6.78906 20.2388 8.57129 19.6951 9.27361 19.3779C9.38688 18.585 9.70406 18.0412 10.0514 17.7316C7.32524 17.4295 4.45556 16.3723 4.45556 11.66C4.45556 10.3158 4.93132 9.22074 5.72426 8.35984C5.59588 8.04266 5.17298 6.79662 5.83754 5.10501C5.83754 5.10501 6.87213 4.77274 9.22074 6.36616C10.2025 6.0943 11.2522 5.95837 12.3019 5.95082C13.344 5.95837 14.4013 6.0943 15.383 6.36616C17.7316 4.77274 18.7662 5.10501 18.7662 5.10501C19.4383 6.79662 19.0154 8.05021 18.887 8.35984C19.6724 9.22074 20.1482 10.3158 20.1482 11.66C20.1482 16.3874 17.271 17.422 14.5297 17.7316C14.9677 18.1092 15.3679 18.8644 15.3679 20.0123C15.3679 21.6586 15.3528 22.9801 15.3528 23.3879C15.3528 23.7202 15.5718 24.0978 16.1986 23.977C21.0846 22.3458 24.6038 17.7392 24.6038 12.3094C24.6038 5.50526 19.0985 0 12.3019 0Z"
-                fill="black"
-              ></path>
-            </svg>
+            Donate
           </a>
         </div>
       </div>

@@ -1,11 +1,16 @@
 import Head from "next/head";
+import Link from "next/link";
+import { NextSeo } from "next-seo";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { NextSeo } from "next-seo";
+import About from "../components/About";
+import Resources from "../components/Resources";
+import Kits from "../components/Kits";
+import Join from "../components/Join";
 
 export default function Home() {
   return (
-    <div className="text-black bg-white">
+    <div className="bg-white dark:bg-black">
       <NextSeo
         title="Ataraxia"
         description="Ataraxia is a non-profit organization dedicated to improving the mental health of our homeless population."
@@ -25,206 +30,82 @@ export default function Home() {
         }}
       />
       <Head>
-        <title>Ataraxia</title>
         <link rel="icon" href="../favicon/favicon.ico" />
       </Head>
       <Header />
-      <section class="text-gray-600 body-font">
-        <div class="max-w-5xl pt-52 pb-24 mx-auto">
-          <h1 class="text-80 text-center font-4 lh-6 ld-04 font-bold title-font text-black mb-6">
-            Welcome to Ataraxia.
-          </h1>
-          <h2 class="text-2xl font-4 ld-04 title-font pb-11 text-gray-700 text-center">
-            Ataraxia is a non-profit organization incubated by{" "}
-            <a
-              href="https://envisionnew.org"
-              className="text-gray-500 text-dotted hover:text-blue-600"
-            >
-              Project enVision U.S.
-            </a>
-            <br />
-            with a mission to improve the mental health of our homeless
-            population.
-          </h2>
-          <div className="ml-6 text-center">
-            <a
-              className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
-              href="#about"
-            >
-              <div className="flex text-lg">
-                <span className="justify-center">Learn More</span>
-              </div>
-            </a>
-            <a
-              className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 lg:ml-11 md:ml-11 text-md md:mt-0 hover:text-white hover:bg-black focus:shadow-outline"
-              href="#kits"
-            >
-              <div className="flex text-lg">
-                <span className="justify-center">View Kits</span>
-              </div>
-            </a>
+      <section className="relative">
+        <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
+          <div className="w-full pb-5 mx-auto text-center md:w-11/12">
+            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
+              Promoting
+              <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
+                neurodiversity
+              </span>
+              <br />
+              in our communities.
+            </h1>
+            <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
+              Ataraxia is a non-profit organization dedicated to providing
+              adequate <b>digital</b> resources to promote neurodiversity within
+              our communities, while striving to create a tangible{" "}
+              <b>material</b> effect. <br />
+              <br />
+              Our projects include the development of mental health kits,
+              classes highlighting the neuroscience behind certain conditions,
+              our own podcast revolving around neurodiversity, and webinars
+              hosting professors, neurologists, and neurosurgeons.
+            </p>
+            <div className="mt-6 text-center md:ml-6">
+              <Link href="/">
+                <a
+                  className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
+                  aria-label="events"
+                  href="/"
+                  rel="noreferrer"
+                >
+                  Events
+                </a>
+              </Link>
+              <br className="sm:hidden" />
+              <Link href="/#about">
+                <a
+                  className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-700 transition duration-300 border rounded shadow dark:hover:border-gray-500 hover:shadow-md md:ml-2 dark:text-gray-300"
+                  aria-label="learn more"
+                >
+                  Learn More
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className="relative w-full py-10 mx-auto text-center md:py-16 md:w-10/12">
+            <div className="relative">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://donorbox.org/ataraxia-project-envision-us/"
+              >
+                <img
+                  className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
+                  src="/images/main.jpg"
+                  alt="A few kits that were delivered to a homeless shelter"
+                />
+              </a>
+            </div>
+            <p className="my-8 text-sm font-medium text-gray-500">
+              A few kits that were delivered to a homeless shelter
+            </p>
           </div>
         </div>
-        <div className="container flex flex-col items-center justify-center mx-auto">
-          <img
-            className="object-cover object-center w-3/4 border rounded shadow-md g327"
-            alt="Picture of all the kits being delivered"
-            src="/images/main.jpg"
-          ></img>
-        </div>
-        <section id="about">
-          <h2 className="pt-40 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-900 lg:text-7xl md:text-6xl">
-            About
-          </h2>
-          <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
-            Ataraxia is a non-profit organization incubated by Project enVision
-            U.S. that is dedicated to end mental health illnesses in the
-            homeless population.
-          </p>
-          <div className="flex justify-center mt-6">
-            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
-          </div>
-          <div className="max-w-4xl pt-12 mx-auto fsac4">
-            <div class="ktq4">
-              <center>
-                <img className="w-10 text-center" src="../favicon/logo.png" />
-              </center>
-              <h3 class="pt-3 font-semibold text-center text-2xl text-white">
-                Definition
-              </h3>
-              <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                Ataraxia is defined as a state of serene calmness. With
-                countless challenges and difficulties, it is essential to focus
-                on our mental health. We wanted a simple name that succinctly
-                delivered our goal: to help the homless population achieve
-                ataraxia.
-              </p>
-            </div>
-            <div class="ktq4">
-              <center>
-                <img className="w-10 text-center" src="../favicon/logo.png" />
-              </center>
-              <h3 class="pt-3 font-semibold text-center text-2xl text-white">
-                Mission Statement
-              </h3>
-              <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                Majority of homeless people deal with some level of mental
-                illness, from depression to anxiety. Ataraxia is dedicated to
-                helping these underprivileged populations with their mental
-                health. We teach fruitful stress management techniques, so
-                people can be in a better mental state to be more productive and
-                deal with challenges effectively.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="kits">
-          <h2 className="pt-40 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-900 lg:text-7xl md:text-6xl">
-            Kits
-          </h2>
-          <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
-            Our mental health kits are crafted with help from professionals and
-            researchers in the field. Our goal is to create strong kits at an
-            affordable price to increase reproducibility.
-          </p>
-          <div className="flex justify-center mt-6">
-            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
-          </div>
-          <div className="max-w-6xl pt-32 pb-32 mx-auto fsac4">
-            <div class="ktq4">
-              <img src="../images/kit2.jpg"></img>
-              <h3 class="pt-3 text-center font-semibold text-2xl text-white my-2">
-                Kit Contents
-              </h3>
-              <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                Pamphlet: includes key information to encourage healthy living
-                and alleviate anxiety and stress + tips to stay safe during the
-                pandemic
-                <br />
-                Crayons: coloring is shown to relax the mind inducing a quiet
-                and mindful state + helps alleviate stress and anxiety
-                <br />
-                Stress ball: Squeezing helps reduce anxiety and stress + helps
-                treat carpal tunnel and improve concentration
-                <br />
-                Water bottle w/ filter: can store clean water even if not
-                purified
-                <br />
-                Bag: Useful storage device for homeless
-              </p>
-            </div>
-            <div class="ktq4">
-              <img src="../images/kit1.jpg"></img>
-              <h3 class="pt-3 text-center font-semibold text-2xl text-white my-2">
-                Completed Kit
-              </h3>
-              <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                Kits are created and assembled by our volunteers. Once
-                completed, they are delivered to homeless shelters through
-                numerous different organizations.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="COVID">
-          <h2 className="pt-40 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-900 lg:text-7xl md:text-6xl">
-            COVID-19
-          </h2>
-          <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
-            COVID-19 has rapidly strengthened inequalities and those most
-            forgotten in these difficult times are the homeless population.
-            We've been creating <span className="underline">hygiene kits</span>{" "}
-            to serve the homeless population in this crisis. Learn more
-            information about our current drive below.
-          </p>
-          <div className="flex justify-center mt-6">
-            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
-          </div>
-          <div className="max-w-4xl pt-12 mx-auto fsac3">
-            <div class="ktq4">
-              <center>
-                <img className="w-10 text-center" src="../favicon/logo.png" />
-              </center>
-              <h3 class="pt-3 font-semibold text-center text-2xl text-white">
-                Hygiene Drive
-              </h3>
-              <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                More information will be available soon.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="about" className="mb-20">
-          <h2 className="pt-40 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-900 lg:text-7xl md:text-6xl">
-            Courses
-          </h2>
-          <br />
-          <p className="mx-auto text-xl font-normal leading-relaxed text-center text-gray-400 fs521 lg:w-1/3">
-            Ataraxia has been developing online courses aimed at providing
-            knowledge about mental health and ways to be supportive.
-          </p>
-          <div className="flex justify-center mt-6">
-            <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
-          </div>
-          <div className="max-w-4xl pt-12 mx-auto fsac3">
-            <div class="ktq4">
-              <center>
-                <img className="w-10 text-center" src="../favicon/logo.png" />
-              </center>
-              <h3 class="pt-3 font-semibold text-center text-2xl text-white">
-                Course Information
-              </h3>
-              <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-                Courses are still in development and will be released when
-                completed. Stay tuned!
-              </p>
-            </div>
-          </div>
-        </section>
+        {/* <div
+          style={{ backgroundImage: "url(/images/blur.png)", zIndex: -1 }}
+          className="absolute inset-0 w-full h-full bg-bottom bg-no-repeat bg-cover"
+        ></div> */}
       </section>
+      <About />
+      <Resources />
+      <Kits />
+      <Join />
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 # Ataraxia HomePage
 
-<img src="./screenshots/home.jpg" />
+<img src="./.github/home.jpg" />
 
 This is the current deployment of Ataraxia's webpage located at [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/).
 
@@ -9,7 +9,7 @@ This is the current deployment of Ataraxia's webpage located at [https://ataraxi
 First, clone/run the development server:
 
 ```bash
-$ git clone https://github.com/minor/ataraxiaweb.git
+$ git clone https://github.com/envisionnew/ataraxia.envisionnew.org.git
 $ cd web
 $ yarn
 # or
@@ -31,6 +31,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 Project Link – [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/)
 
-Project GitHub – [https://github.com/minor/ataraxiaweb/](https://github.com/minor/ataraxiaweb/)
+Project GitHub – [https://github.com/envisionnew/ataraxia.envisionnew.org/](https://github.com/envisionnew/ataraxia.envisionnew.org/)
 
-Template Link – [https://nine4.app](https://nine4.app)
+Template Link – [https://plutonium.saurish.com](https://plutonium.saurish.com)
