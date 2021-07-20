@@ -15,6 +15,11 @@ const volunteers = [
     position: "Director of Outreach",
     image: "leah.jpeg",
   },
+  {
+    name: "Varun Bommaji",
+    position: "Secretary",
+    image: "varun.jpeg",
+  },
 ];
 
 export default function About() {
