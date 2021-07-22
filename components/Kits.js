@@ -18,10 +18,10 @@ export default function Kits() {
       <div className="grid gap-6 lg:mx-auto lg:max-w-6xl lg:grid-cols-2">
         <div className="duration-150 bg-white dark:bg-black hover:shadow-3xl rounded-xl">
           <div className="box-border relative inline-block max-w-full m-0 overflow-hidden">
-            <div className="box-border block max-w-full">
+            <div className="box-border block max-w-full px-5 sm:px-0">
               <img
                 alt="An image of the completed kits"
-                className="rounded"
+                className="rounded-lg"
                 aria-hidden="true"
                 role="presentation"
                 src="/images/kit1.jpg"
@@ -29,7 +29,7 @@ export default function Kits() {
             </div>
           </div>
           <div className="p-5">
-            <h3 className="mb-2">
+            <h3 className="mb-2 px-2.5 sm:px-0">
               <span className="font-bold text-gray-900 dark:text-gray-200">
                 Completed Kit:&nbsp;
               </span>
@@ -42,10 +42,10 @@ export default function Kits() {
         </div>
         <div className="duration-150 bg-white dark:bg-black hover:shadow-3xl rounded-xl">
           <div className="box-border relative inline-block max-w-full m-0 overflow-hidden">
-            <div className="box-border block max-w-full">
+            <div className="box-border block max-w-full px-5 sm:px-0">
               <img
                 alt="An image of the contents of our kits"
-                className="rounded"
+                className="rounded-lg"
                 aria-hidden="true"
                 role="presentation"
                 src="/images/kit2.jpg"
@@ -53,7 +53,7 @@ export default function Kits() {
             </div>
           </div>
           <div className="p-5">
-            <h3 className="mb-2">
+            <h3 className="px-2.5 sm:px-0 mb-2">
               <span className="font-bold text-gray-900 dark:text-gray-200">
                 Our contents:&nbsp;
               </span>

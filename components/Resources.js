@@ -1,6 +1,6 @@
 export default function Resources() {
   return (
-    <section id="resources" className="py-12">
+    <section id="resources" className="py-6 md:py-12">
       <div className="max-w-xl px-4 py-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
           Find some of the most{" "}
@@ -13,20 +13,22 @@ export default function Resources() {
           </span>{" "}
           resources.
         </h1>
-        <p className="max-w-md mx-auto mb-10 text-lg text-gray-600 dark:text-gray-400 md:text-lg">
+        <p className="max-w-md mx-auto mb-10 text-lg text-center text-gray-600 dark:text-gray-400 md:text-lg">
           We&apos;re introducing a new method for connection and relationality
           within the community by focusing on topics that <b>matter</b> – like
           your mental health.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="mb-10 space-y-6">
-            <a
-              href="https://neurodiversity.wiki/ocd?utm_source=ataraxia.envisionnew.org"
-              rel="noreferrer"
-              className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left"
-            >
-              Neurodiversity Wiki
-            </a>
+            <div className="text-center sm:text-left">
+              <a
+                href="https://neurodiversity.wiki/ocd?utm_source=ataraxia.envisionnew.org"
+                rel="noreferrer"
+                className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl"
+              >
+                Neurodiversity Wiki
+              </a>
+            </div>
             <div className="h-auto">
               <a
                 href="https://neurodiversity.wiki/ocd?utm_source=ataraxia.envisionnew.org"
@@ -53,12 +55,14 @@ export default function Resources() {
             </p>
           </div>
           <div className="mb-10 space-y-6">
-            <h1
-              href="https://www.neurodiversityhub.org/?utm_source=ataraxia.envisionnew.org"
-              className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left"
-            >
-              Neurodiversity Hub
-            </h1>
+            <div className="text-center sm:text-left">
+              <a
+                href="https://www.neurodiversityhub.org/?utm_source=ataraxia.envisionnew.org"
+                className="text-xl font-bold underline text-rose-600 dark:text-rose-300 md:text-2xl"
+              >
+                Neurodiversity Hub
+              </a>
+            </div>
             <div className="h-auto">
               <a
                 href="https://www.neurodiversityhub.org/?utm_source=ataraxia.envisionnew.org"

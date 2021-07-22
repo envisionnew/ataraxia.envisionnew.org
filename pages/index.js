@@ -57,16 +57,14 @@ export default function Home() {
               hosting professors, neurologists, and neurosurgeons.
             </p>
             <div className="mt-6 text-center md:ml-6">
-              <Link href="/">
-                <a
-                  className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
-                  aria-label="events"
-                  href="/"
-                  rel="noreferrer"
-                >
-                  Events
-                </a>
-              </Link>
+              <a
+                className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
+                aria-label="events"
+                href="https://donorbox.org/ataraxia-project-envision-us/"
+                rel="noreferrer"
+              >
+                Donate
+              </a>
               <br className="sm:hidden" />
               <Link href="/#about">
                 <a

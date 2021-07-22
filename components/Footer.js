@@ -5,7 +5,7 @@ export default function Footer() {
   const router = useRouter();
   return (
     <footer className="text-black dark:text-gray-300 body-font">
-      <div className="container flex flex-col items-center px-10 pb-8 mx-auto border-t border-pink-600 dark:border-pink-300 sm:flex-row">
+      <div className="flex flex-col items-center w-3/4 px-10 pb-8 mx-auto border-t border-pink-600 sm:container dark:border-pink-300 sm:flex-row">
         <Link href="/">
           <a className="flex items-center justify-center mt-3 text-xl font-medium title-font md:ml-3 md:justify-start">
             ATARAXIA

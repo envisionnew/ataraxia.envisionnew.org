@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           <meta name="author" content="Ataraxia" />
           <meta property="og:type" content="website" />
           <meta property="og:image" content={`/favicon/send.png`} />

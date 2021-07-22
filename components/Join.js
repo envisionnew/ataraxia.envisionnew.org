@@ -23,7 +23,7 @@ export default function Join() {
                 <div className="w-1/2 p-2">
                   <div className="relative">
                     <label
-                      for="contactName"
+                      htmlFor="contactName"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Full Name <span className="text-red-500">*</span>
@@ -41,7 +41,7 @@ export default function Join() {
                 <div className="w-1/2 p-2">
                   <div className="relative">
                     <label
-                      for="contactEmail"
+                      htmlFor="contactEmail"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Email <span className="text-red-500">*</span>
@@ -59,7 +59,7 @@ export default function Join() {
                 <div className="w-1/2 p-2 lg:w-1/4">
                   <div className="relative">
                     <label
-                      for="contactNumber"
+                      htmlFor="contactNumber"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Number <span className="text-red-500">*</span>
@@ -77,7 +77,7 @@ export default function Join() {
                 <div className="w-1/2 p-2 lg:w-1/5">
                   <div className="relative">
                     <label
-                      for="contactAge"
+                      htmlFor="contactAge"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Age <span className="text-red-500">*</span>
@@ -95,7 +95,7 @@ export default function Join() {
                 <div className="w-full p-2 lg:w-55">
                   <div className="relative">
                     <label
-                      for="contactDiscord"
+                      htmlFor="contactDiscord"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Discord Tag <span className="text-red-500">*</span>
@@ -113,7 +113,7 @@ export default function Join() {
                 <div className="w-full p-2">
                   <div className="relative">
                     <label
-                      for="contactWhy"
+                      htmlFor="contactWhy"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Why do you want to join Ataraxia?{" "}
@@ -131,7 +131,7 @@ export default function Join() {
                 <div className="w-full p-2">
                   <div className="relative">
                     <label
-                      for="extraMessage"
+                      htmlFor="extraMessage"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
                       Anything else we should know about you?

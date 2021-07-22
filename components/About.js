@@ -24,7 +24,7 @@ const volunteers = [
 
 export default function About() {
   return (
-    <section id="about" className="py-12">
+    <section id="about" className="py-6 md:py-12">
       <div className="max-w-xl px-4 py-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
           About Us
@@ -83,7 +83,7 @@ export default function About() {
                   <div className="flex flex-col items-center h-full text-center">
                     <img
                       alt={`Image of ${volunteer.name}`}
-                      className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-60"
+                      className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80 md:h-60"
                       src={`/images/${volunteer.image}`}
                     />
                     <div className="w-full">
