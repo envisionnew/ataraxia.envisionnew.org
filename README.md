@@ -1,6 +1,6 @@
-# Ataraxia HomePage
+# Ataraxia Website
 
-<img src="./.github/home.jpg" />
+<img src="./.github/home.png" />
 
 This is the current deployment of Ataraxia's webpage located at [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/).
 
