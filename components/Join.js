@@ -98,7 +98,7 @@ export default function Join() {
                       htmlFor="contactDiscord"
                       className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                     >
-                      Discord Tag <span className="text-red-500">*</span>
+                      Discord Handle <span className="text-red-500">*</span>
                     </label>
                     <input
                       id="contactDiscord"
