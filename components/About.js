@@ -6,7 +6,7 @@ const volunteers = [
   },
   {
     name: "Saurish Srivastava",
-    position: "Co-Founder and Director",
+    position: "Co-Founder and Director of Operations",
     website: "https://saurish.com",
     image: "saurish.jpeg",
   },
