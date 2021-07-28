@@ -2,7 +2,14 @@ const volunteers = [
   {
     name: "Shehbaz Singh Virk",
     position: "Co-founder and Executive Director",
+    website: "https://www.linkedin.com/in/shehbazvirk",
     image: "shehbaz.jpeg",
+  },
+  {
+    name: "Shaheryar Asad",
+    position: "Director of Research",
+    website: "https://www.linkedin.com/in/shaheryar-asad-0089b7140",
+    image: "shaheryar.jpeg",
   },
   {
     name: "Saurish Srivastava",
@@ -93,7 +100,7 @@ export default function About() {
                             ? "underline text-black dark:text-white hover:text-link-blue dark:hover:text-link-purple"
                             : "cursor-text"
                         }
-                        href={volunteer.website ? "https://saurish.com" : null}
+                        href={volunteer.website ? volunteer.website : null}
                       >
                         <h2
                           className={
