@@ -22,7 +22,7 @@ export default function Resources() {
           <div className="mb-10 space-y-6">
             <div className="text-center sm:text-left">
               <a
-                href="https://neurodiversity.wiki/ocd?utm_source=ataraxia.envisionnew.org"
+                href="https://neurodiversity.wiki/?utm_source=ataraxia.envisionnew.org"
                 rel="noreferrer"
                 className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl"
               >
@@ -31,13 +31,13 @@ export default function Resources() {
             </div>
             <div className="h-auto">
               <a
-                href="https://neurodiversity.wiki/ocd?utm_source=ataraxia.envisionnew.org"
+                href="https://neurodiversity.wiki/?utm_source=ataraxia.envisionnew.org"
                 rel="noreferrer"
                 target="_blank"
               >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/neurodiversity.webp"
+                  src="/images/neurodiversity.png"
                   alt="Neurodiversity Wiki Landing Page"
                 />
               </a>
@@ -71,7 +71,7 @@ export default function Resources() {
               >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/neurodiversityhub.webp"
+                  src="/images/neurodiversityhub.png"
                   alt="Neurodiversity Hub Landing Page"
                 />
               </a>

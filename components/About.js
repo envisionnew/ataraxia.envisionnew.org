@@ -6,16 +6,21 @@ const volunteers = [
     image: "shehbaz.jpeg",
   },
   {
+    name: "Saurish Srivastava",
+    position: "Co-Founder and Director of Operations",
+    website: "https://saurish.com",
+    image: "saurish.jpeg",
+  },
+  {
     name: "Shaheryar Asad",
     position: "Director of Research",
     website: "https://www.linkedin.com/in/shaheryar-asad-0089b7140",
     image: "shaheryar.jpeg",
   },
   {
-    name: "Saurish Srivastava",
-    position: "Co-Founder and Director of Operations",
-    website: "https://saurish.com",
-    image: "saurish.jpeg",
+    name: "Becky Montes",
+    position: "",
+    image: "",
   },
   {
     name: "Leah Altamirano",
