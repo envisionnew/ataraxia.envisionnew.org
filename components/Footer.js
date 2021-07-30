@@ -39,7 +39,7 @@ export default function Footer() {
             src="/images/powered-by-vercel.svg"
           ></img>
         </a>
-        {/* <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300" />
+        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300" />
         <a
           className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
           href="https://envisionnew.org/?utm_source=ataraxia"
@@ -48,7 +48,7 @@ export default function Footer() {
             className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5"
             src="/images/incubated-by-envision.svg"
           ></img>
-        </a> */}
+        </a>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-3 sm:justify-start">
           <a
             aria-label="mail"

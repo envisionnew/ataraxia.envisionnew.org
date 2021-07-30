@@ -18,14 +18,14 @@ const volunteers = [
     image: "shaheryar.jpeg",
   },
   {
-    name: "Becky Montes",
-    position: "",
-    image: "",
-  },
-  {
     name: "Leah Altamirano",
     position: "Director of Outreach",
     image: "leah.jpeg",
+  },
+  {
+    name: "Becky Montes",
+    position: "",
+    image: "",
   },
   {
     name: "Varun Bommaji",

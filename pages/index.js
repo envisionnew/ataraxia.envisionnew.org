@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import About from "../components/About";
 import Resources from "../components/Resources";
+import Impact from "../components/Impact";
 import Kits from "../components/Kits";
 import Join from "../components/Join";
 
@@ -103,6 +104,7 @@ export default function Home() {
       <About />
       <Resources />
       <Kits />
+      <Impact />
       <Join />
       <Footer />
     </div>
