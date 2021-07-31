@@ -53,7 +53,7 @@ export default function Impact() {
           </div>
           <div className="w-1/3 p-4">
             <h2 className="text-4xl font-medium text-black dark:text-white title-font sm:text-5xl">
-              <CountUp end={2} redraw={true}>
+              <CountUp end={10} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />
@@ -63,7 +63,7 @@ export default function Impact() {
               +
             </h2>
             <p className="leading-relaxed text-gray-700 dark:text-gray-300">
-              Course sign-ups
+              Course sign-ups [in trial!]
             </p>
           </div>
         </div>
