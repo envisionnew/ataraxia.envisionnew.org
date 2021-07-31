@@ -16,8 +16,8 @@ export default function Footer() {
           className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
           href={
             router.pathname === "/"
-              ? `https://github.com/envisionnew/ataraxia.envisionnew.org/edit/main/pages/index.js`
-              : `https://github.com/envisionnew/ataraxia.envisionnew.org/edit/main/pages${router.pathname}.js`
+              ? `https://github.com/envisionnew/ataraxiahealth.org/edit/main/pages/index.js`
+              : `https://github.com/envisionnew/ataraxiahealth.org/edit/main/pages${router.pathname}.js`
           }
         >
           <span className="text-sm md:ml-5">Edit on GitHub</span>
@@ -89,7 +89,7 @@ export default function Footer() {
           <a
             aria-label="github"
             className="ml-3"
-            href="https://github.com/envisionnew/ataraxia.envisionnew.org/"
+            href="https://github.com/envisionnew/ataraxiahealth.org/"
           >
             <svg
               width="30"

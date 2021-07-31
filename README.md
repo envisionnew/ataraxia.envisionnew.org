@@ -2,14 +2,14 @@
 
 <img src="./.github/home.png" />
 
-This is the current deployment of Ataraxia's webpage located at [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/).
+This is the current deployment of Ataraxia's webpage located at [https://ataraxiahealth.org/](https://ataraxiahealth.org/).
 
 ## Getting Started
 
 First, clone/run the development server:
 
 ```bash
-$ git clone https://github.com/envisionnew/ataraxia.envisionnew.org.git
+$ git clone https://github.com/envisionnew/ataraxiahealth.org.git
 $ cd web
 $ yarn
 # or
@@ -29,8 +29,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Links & Contact
 
-Project Link – [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/)
+Project Link – [https://ataraxiahealth.org/](https://ataraxiahealth.org/)
 
-Project GitHub – [https://github.com/envisionnew/ataraxia.envisionnew.org/](https://github.com/envisionnew/ataraxia.envisionnew.org/)
+Project GitHub – [https://github.com/envisionnew/ataraxiahealth.org/](https://github.com/envisionnew/ataraxiahealth.org/)
 
 Template Link – [https://plutonium.saurish.com](https://plutonium.saurish.com)

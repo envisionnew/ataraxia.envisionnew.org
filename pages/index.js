@@ -15,9 +15,9 @@ export default function Home() {
       <NextSeo
         title="Ataraxia"
         description="Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations."
-        canonical="https://ataraxia.envisionnew.org/"
+        canonical="https://ataraxiahealth.org/"
         openGraph={{
-          url: "https://ataraxia.envisionnew.org",
+          url: "https://ataraxiahealth.org",
           title: "Ataraxia",
           description:
             "Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations.",
