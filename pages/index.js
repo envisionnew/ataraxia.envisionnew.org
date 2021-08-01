@@ -7,6 +7,7 @@ import About from "../components/About";
 import Resources from "../components/Resources";
 import Impact from "../components/Impact";
 import Kits from "../components/Kits";
+import Podcast from "../components/Podcast";
 import Join from "../components/Join";
 
 export default function Home() {
@@ -101,6 +102,7 @@ export default function Home() {
           className="absolute inset-0 w-full h-full bg-bottom bg-no-repeat bg-cover"
         ></div> */}
       </section>
+      <Podcast />
       <About />
       <Resources />
       <Kits />

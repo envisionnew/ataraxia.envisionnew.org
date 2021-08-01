@@ -5,7 +5,7 @@ export default function Join() {
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
           Join the adventure.
         </h1>
-        <p className="max-w-md mx-auto mb-10 text-lg text-gray-600 dark:text-gray-400 md:text-lg">
+        <p className="max-w-md mx-auto mb-10 text-lg text-center text-gray-600 md:text-left dark:text-gray-400 md:text-lg">
           Do you want to help out in our mission? Sign up below to join our
           podcasts and get involved!
         </p>

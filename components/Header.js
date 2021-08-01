@@ -51,35 +51,36 @@ export default function Header() {
           }
         >
           <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
-            <a
-              href="/#about"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              About
-            </a>
-            <a
-              href="/#resources"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              Resources
-            </a>
-            <a
-              href="/#kits"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              Kits
-            </a>
+            <Link href="/#about">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                About
+              </a>
+            </Link>
+            <Link href="/#resources">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Resources
+              </a>
+            </Link>
+            <Link href="/#kits">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Kits
+              </a>
+            </Link>
             <Link href="/courses">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Courses
               </a>
             </Link>
-            <a
-              href="/#join"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              Join
-            </a>
+            <Link href="/#podcast">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Podcast
+              </a>
+            </Link>
+            <Link href="/#join">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Join
+              </a>
+            </Link>
           </div>
           <button
             aria-label="Toggle Dark Mode"
@@ -117,7 +118,7 @@ export default function Header() {
             href="https://donorbox.org/ataraxia-project-envision-us/"
             rel="noopener noreferrer"
             target="_blank"
-            className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
+            className="invisible md:visible px-3 py-1.5 transition-colors md:mr-5 hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
           >
             Donate
           </a>

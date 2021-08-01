@@ -52,7 +52,7 @@ export default function About() {
                 src="../favicon/logo.png"
               />
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <p className="mx-2 font-normal text-center text-gray-500 md:text-left dark:text-gray-400 text-md">
               Definitionally, ataraxia is defined as a state of serene calmness.
               With countless challenges and difficulties – especially during
               COVID-19 – it is essential to understand that different people are
@@ -73,7 +73,7 @@ export default function About() {
                 src="../favicon/logo.png"
               />
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <p className="mx-2 font-normal text-center text-gray-500 md:text-left dark:text-gray-400 text-md">
               Ataraxia is currently dedicated to providing resources in
               underprivileged populations and communities. Neurodiversity has
               been proven to have links to racial and socioeconomic trends. Our
