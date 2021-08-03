@@ -46,8 +46,8 @@ export default function Resources() {
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <span className="font-semibold">Tool</span>: This is a wiki
-                  that provides resources to understand different types of
-                  disorders. It is written by people who experience these
+                  that provides resources to understand different neurotypical
+                  identities. It is written by people who experience these
                   conditions and provides a first-perspective look at what{" "}
                   <i>not</i> to do.
                 </li>
