@@ -14,12 +14,12 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="Ataraxia"
+        title="Ataraxia – a non-profit organization."
         description="Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations."
         canonical="https://ataraxiahealth.org/"
         openGraph={{
           url: "https://ataraxiahealth.org",
-          title: "Ataraxia",
+          title: "Ataraxia – a non-profit organization.",
           description:
             "Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations.",
           images: [

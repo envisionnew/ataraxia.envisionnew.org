@@ -24,6 +24,12 @@ module.exports = {
           "https://drive.google.com/file/d/1I58ZyUdNqldIXOpg5phJtB3YsWg3G0sI/view?usp=sharing",
         permanent: true,
       },
+      {
+        source: "/blog-submit",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSc_TvWiCG3y-w3FesxxWfxUJnefdG1opmGPxMwJ2Iz92RlPaw/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
