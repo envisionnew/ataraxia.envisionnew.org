@@ -61,9 +61,9 @@ export default function Header() {
                 Resources
               </a>
             </Link>
-            <Link href="/#kits">
+            <Link href="/contact">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
-                Kits
+                Contact
               </a>
             </Link>
             <Link href="/courses">
@@ -71,14 +71,14 @@ export default function Header() {
                 Courses
               </a>
             </Link>
-            <Link href="/#podcast">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
-                Podcast
-              </a>
-            </Link>
             <Link href="/#join">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Join
+              </a>
+            </Link>
+            <Link href="/blog">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Blog
               </a>
             </Link>
           </div>

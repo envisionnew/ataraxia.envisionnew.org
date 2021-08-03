@@ -5,51 +5,51 @@ export default function Footer() {
   const router = useRouter();
   return (
     <footer className="text-black dark:text-gray-300 body-font">
-      <div className="flex flex-col items-center w-3/4 px-10 pb-8 mx-auto border-t border-pink-600 sm:container dark:border-pink-300 sm:flex-row">
+      <div className="flex flex-col items-center w-3/4 pb-8 mx-auto border-t border-gray-300 dark:border-gray-750 lg:w-10/12 2xl:w-1/2 lg:flex-row">
         <Link href="/">
-          <a className="flex items-center justify-center mt-3 text-xl font-medium title-font md:ml-3 md:justify-start">
+          <a className="flex items-center justify-center mt-3 text-xl font-medium title-font lg:ml-3 lg:justify-start">
             ATARAXIA
           </a>
         </Link>
-        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300" />
+        <div className="invisible h-1 border-l border-black lg:h-5 lg:mt-3 lg:ml-4 lg:visible dark:border-gray-300" />
         <a
-          className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
+          className="flex items-center justify-center mt-3 font-medium title-font lg:justify-start"
           href={
             router.pathname === "/"
               ? `https://github.com/envisionnew/ataraxiahealth.org/edit/main/pages/index.js`
               : `https://github.com/envisionnew/ataraxiahealth.org/edit/main/pages${router.pathname}.js`
           }
         >
-          <span className="text-sm md:ml-5">Edit on GitHub</span>
+          <span className="text-sm lg:ml-5">Edit on GitHub</span>
         </a>
-        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300" />
+        <div className="invisible h-1 border-l border-black lg:h-5 lg:mt-3 lg:ml-4 lg:visible dark:border-gray-300" />
         <a
-          className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
+          className="flex items-center justify-center mt-3 font-medium title-font lg:justify-start"
           href="https://donorbox.org/ataraxia-project-envision-us/"
         >
-          <span className="text-sm md:ml-5">Donate</span>
+          <span className="text-sm lg:ml-5">Donate</span>
         </a>
-        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300" />
+        <div className="invisible border-l border-black lg:h-5 lg:mt-3 lg:ml-4 lg:visible dark:border-gray-300" />
         <a
-          className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
+          className="flex items-center justify-center mt-3 font-medium title-font lg:justify-start"
           href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
         >
           <img
-            className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5"
+            className="h-8 mb-2 ml-0 lg:mb-0 lg:ml-5"
             src="/images/powered-by-vercel.svg"
           ></img>
         </a>
-        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300" />
+        <div className="invisible h-1 border-l border-black lg:h-5 lg:mt-3 lg:ml-4 lg:visible dark:border-gray-300" />
         <a
-          className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
+          className="flex items-center justify-center mt-3 font-medium title-font lg:justify-start"
           href="https://envisionnew.org/?utm_source=ataraxia"
         >
           <img
-            className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5"
+            className="h-8 mb-2 ml-0 lg:mb-0 lg:ml-5"
             src="/images/incubated-by-envision.svg"
           ></img>
         </a>
-        <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-3 sm:justify-start">
+        <span className="inline-flex justify-center mt-4 lg:ml-auto lg:mt-3 lg:justify-start">
           <a
             aria-label="mail"
             href="maito:saurish@envisionnew.org?subject=From Ataraxia!"
@@ -66,6 +66,22 @@ export default function Footer() {
                 strokeWidth="2"
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
+            </svg>
+          </a>
+          <a
+            aria-label="twitter"
+            className="ml-3"
+            href="https://twitter.com/envisionnew"
+          >
+            <svg
+              fill="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
           <a

@@ -16,6 +16,7 @@ module.exports = {
         "link-blue": "#3B719F",
         "link-purple": "#8F8CE7",
         "gray-custom": "#474747",
+        "gray-750": "#374151",
       },
       spacing: {
         55: "55%",
@@ -25,5 +26,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
