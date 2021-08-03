@@ -30,6 +30,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSc_TvWiCG3y-w3FesxxWfxUJnefdG1opmGPxMwJ2Iz92RlPaw/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/contact",
+        destination:
+          "mailto:saurish@envisionnew.org?cc=shehbaz.virk@envisionnew.org&subject=Ataraxia: Contact",
+        permanent: true,
+      },
     ];
   },
 };
