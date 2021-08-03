@@ -1,7 +1,6 @@
-import Head from "next/head";
 import Link from "next/link";
 import { getDatabase } from "../../lib/notion";
-import { NextSEO } from "next-seo";
+import { NextSeo } from "next-seo";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
