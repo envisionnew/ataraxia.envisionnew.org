@@ -15,8 +15,8 @@ export default function BlogLayout(props) {
   const router = useRouter();
   const { children, ...customMeta } = props;
   const meta = {
-    title: "Ataraxia – a non-profit organization.",
-    description: `Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations.`,
+    title: "Blog | Ataraxia",
+    description: `Find student-written and community-written content about neurodiversity and neuroscience.`,
     image: "http://ataraxiahealth.org/favicon/send.png",
     type: "website",
     ...customMeta,

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { getDatabase } from "../../lib/notion";
+import { NextSEO } from "next-seo";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
@@ -9,9 +10,24 @@ export const databaseId = process.env.NOTION_DATABASE_ID;
 export default function Home({ posts }) {
   return (
     <div className="h-screen bg-white dark:bg-black">
-      <Head>
-        <title>Blog | Ataraxia</title>
-      </Head>
+      <NextSeo
+        title="Blog | Ataraxia"
+        description="Find student-written and community-written content about neurodiversity and neuroscience."
+        canonical="https://ataraxiahealth.org/blog/"
+        openGraph={{
+          url: "https://ataraxiahealth.org/blog",
+          title: "Blog | Ataraxia",
+          description:
+            "Find student-written and community-written content about neurodiversity and neuroscience.",
+          images: [
+            {
+              url: "/favicon/send.png",
+              alt: "Ataraxia's Logo",
+            },
+          ],
+          site_name: "Ataraxia – a non-profit organization.",
+        }}
+      />
       <Header />
       <section className="relative text-gray-600 body-font">
         <div className="container px-5 pt-12 pb-12 mx-auto">

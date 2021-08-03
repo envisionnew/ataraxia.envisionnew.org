@@ -31,9 +31,6 @@ export default function Home() {
           site_name: "Ataraxia – a non-profit organization.",
         }}
       />
-      <Head>
-        <link rel="icon" href="../favicon/favicon.ico" />
-      </Head>
       <Header />
       <section className="relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
