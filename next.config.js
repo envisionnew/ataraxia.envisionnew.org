@@ -19,7 +19,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "papers/erlangsen",
+        source: "/papers/erlangsen",
         destination:
           "https://drive.google.com/file/d/1I58ZyUdNqldIXOpg5phJtB3YsWg3G0sI/view?usp=sharing",
         permanent: true,
