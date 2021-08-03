@@ -11,13 +11,13 @@ export default function Podcast() {
         </h1>
         <div className="max-w-4xl mx-auto">
           <iframe
-            src="https://open.spotify.com/embed/episode/67kDcgHiaGNleNow1l5EVM"
+            src="https://open.spotify.com/embed/episode/70SELWZqw2sH49TEuxG97c"
             width="100%"
             height="232"
             frameBorder="0"
             allowtransparency="true"
             allow="encrypted-media"
-          ></iframe>
+          />
         </div>
       </div>
     </section>
