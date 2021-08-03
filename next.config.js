@@ -18,6 +18,12 @@ module.exports = {
           "https://drive.google.com/file/d/11bXDzVEVUe9b3ql4DCwYR2Eh_xB893sK/view?usp=sharing",
         permanent: true,
       },
+      {
+        source: "papers/erlangsen",
+        destination:
+          "https://drive.google.com/file/d/1I58ZyUdNqldIXOpg5phJtB3YsWg3G0sI/view?usp=sharing",
+        permanent: true,
+      },
     ];
   },
 };
