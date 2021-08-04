@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import Header from "../components/Header";
@@ -9,6 +9,7 @@ import Impact from "../components/Impact";
 import Kits from "../components/Kits";
 import Podcast from "../components/Podcast";
 import Join from "../components/Join";
+import MainImage from "../public/images/main.jpg"
 
 export default function Home() {
   return (
@@ -82,11 +83,9 @@ export default function Home() {
                 rel="noreferrer"
                 href="https://donorbox.org/ataraxia-project-envision-us/"
               >
-                <img
-                  className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
-                  src="/images/main.jpg"
-                  alt="A few kits that were delivered to a homeless shelter"
-                />
+                <div className="transition duration-700 md:hover:transform md:hover:scale-105">
+                  <Image src={MainImage} className="rounded-md shadow-2xl h-80 hover:shadow-3xl md:rounded-xl" alt="A few kits that were delivered to a homeless shelter" />
+                </div>
               </a>
             </div>
             <p className="my-8 text-sm font-medium text-gray-500">

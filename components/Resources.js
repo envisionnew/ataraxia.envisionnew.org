@@ -1,3 +1,7 @@
+import Image from 'next/image';
+import NeurodiversityWiki from "../public/images/neurodiversity.png"
+import NeurodiversityHub from "../public/images/neurodiversityhub.png"
+
 export default function Resources() {
   return (
     <section id="resources" className="py-6 md:py-12">
@@ -35,11 +39,9 @@ export default function Resources() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <img
-                  className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/neurodiversity.png"
-                  alt="Neurodiversity Wiki Landing Page"
-                />
+                <div className="rounded-lg">
+                  <Image src={NeurodiversityWiki} className="transition duration-700 rounded-md shadow-2xl md:rounded-xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105" alt="Neurodiversity Wiki Landing Page" />
+                </div>
               </a>
             </div>
             <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
@@ -69,11 +71,9 @@ export default function Resources() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <img
-                  className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/neurodiversityhub.png"
-                  alt="Neurodiversity Hub Landing Page"
-                />
+                <div className="rounded-lg">
+                  <Image src={NeurodiversityHub} className="transition duration-700 rounded-md shadow-2xl md:rounded-xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105" alt="Neurodiversity Hub Landing Page" />
+                </div>
               </a>
             </div>
             <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">

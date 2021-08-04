@@ -9,7 +9,7 @@ const volunteers = [
     name: "Saurish Srivastava",
     position: "Co-Founder and Director of Operations",
     website: "https://saurish.com",
-    image: "saurish.jpeg",
+    image: "saurish.jpg",
   },
   {
     name: "Shaheryar Asad",
@@ -20,16 +20,19 @@ const volunteers = [
   {
     name: "Leah Altamirano",
     position: "Director of Outreach",
+    website: "https://www.instagram.com/leahaltamirano/",
     image: "leah.jpeg",
   },
   {
     name: "Becky Montes",
     position: "Director of Public Relations",
+    website: "https://www.instagram.com/_beckymontes/",
     image: "becky.jpeg",
   },
   {
     name: "Varun Bommaji",
     position: "Secretary",
+    website: "https://www.instagram.com/varunbommaji/",
     image: "varun.jpeg",
   },
 ];

@@ -1,3 +1,7 @@
+import Image from "next/image";
+import Kit1 from "../public/images/kit1.jpg"
+import Kit2 from "../public/images/kit2.jpg"
+
 export default function Kits() {
   return (
     <section id="kits" className="py-12">
@@ -15,13 +19,7 @@ export default function Kits() {
         <div className="duration-150 bg-white dark:bg-black hover:shadow-3xl rounded-xl">
           <div className="box-border relative inline-block max-w-full m-0 overflow-hidden">
             <div className="box-border block max-w-full px-5 sm:px-0">
-              <img
-                alt="An image of the completed kits"
-                className="rounded-lg"
-                aria-hidden="true"
-                role="presentation"
-                src="/images/kit1.jpg"
-              />
+              <Image src={Kit1} className="rounded-lg" alt="An image of the contents of our kits" />
             </div>
           </div>
           <div className="p-5">
@@ -39,13 +37,7 @@ export default function Kits() {
         <div className="duration-150 bg-white dark:bg-black hover:shadow-3xl rounded-xl">
           <div className="box-border relative inline-block max-w-full m-0 overflow-hidden">
             <div className="box-border block max-w-full px-5 sm:px-0">
-              <img
-                alt="An image of the contents of our kits"
-                className="rounded-lg"
-                aria-hidden="true"
-                role="presentation"
-                src="/images/kit2.jpg"
-              />
+              <Image src={Kit2} className="rounded-lg" alt="An image of the contents of our kits" />
             </div>
           </div>
           <div className="p-5">

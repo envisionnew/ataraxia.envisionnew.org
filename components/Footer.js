@@ -32,24 +32,24 @@ export default function Footer() {
         <div className="invisible border-l border-black lg:h-5 lg:mt-3 lg:ml-4 lg:visible dark:border-gray-300" />
         <a
           className="flex items-center justify-center mt-3 font-medium title-font lg:justify-start"
-          alt="Vercel Sponsorship Logo"
           href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
         >
           <span className="sr-only">Vercel Sponsorship</span>
           <img
             className="h-8 mb-2 ml-0 lg:mb-0 lg:ml-5"
+            alt="Vercel Sponsorship Logo"
             src="/images/powered-by-vercel.svg"
           ></img>
         </a>
         <div className="invisible h-1 border-l border-black lg:h-5 lg:mt-3 lg:ml-4 lg:visible dark:border-gray-300" />
         <a
           className="flex items-center justify-center mt-3 font-medium title-font lg:justify-start"
-          alt="enVision Incubation Logo"
           href="https://envisionnew.org/?utm_source=ataraxia"
         >
           <span className="sr-only">enVision Incubation</span>
           <img
             className="h-8 mb-2 ml-0 lg:mb-0 lg:ml-5"
+            alt="enVision Incubation Logo"
             src="/images/incubated-by-envision.svg"
           ></img>
         </a>
