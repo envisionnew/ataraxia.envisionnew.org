@@ -19,6 +19,7 @@ export default function Podcast() {
             src="https://open.spotify.com/embed/episode/5d4dmTZNdsOKcXEyv8kzgu"
             width="100%"
             height="232"
+            title="Speaking from Empathy Spotify Podcast"
             frameBorder="0"
             allowtransparency="true"
             allow="encrypted-media"

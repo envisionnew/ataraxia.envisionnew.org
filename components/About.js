@@ -49,6 +49,7 @@ export default function About() {
             <div className="h-auto">
               <img
                 className="w-10 mx-auto transition duration-700 rounded shadow-2xl hover:shadow-3xl md:hover:transform md:hover:scale-105"
+                alt="Ataraxia Logo"
                 src="../favicon/logo.png"
               />
             </div>
@@ -70,6 +71,7 @@ export default function About() {
             <div className="h-auto">
               <img
                 className="w-10 mx-auto transition duration-700 rounded shadow-2xl hover:shadow-3xl md:hover:transform md:hover:scale-105"
+                alt="Ataraxia Logo"
                 src="../favicon/logo.png"
               />
             </div>
