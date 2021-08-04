@@ -5,8 +5,10 @@ export default function Podcast() {
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
           Listen to the{" "}
           <a
-            href="https://open.spotify.com/embed/episode/5d4dmTZNdsOKcXEyv8kzgu"
-            className="text-transparent underline bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-rose-500 via-fuchsia-500 to-indigo-500 dark:from-rose-400 dark:via-fuchsia-400 dark:to-indigo-400"
+            href="https://open.spotify.com/show/4U8uJhkkXDlCQkraemyfcs?si=sz2BiEqATg6OrEgaS5urfw&dl_branch=1"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline text-podcast-purple dark:text-violet-300"
           >
             Speaking from Empathy
           </a>{" "}
