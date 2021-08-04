@@ -1,6 +1,6 @@
 # Ataraxia's Website
 
-<img src="./.github/lighthouse-new.jpg" />
+<img src="./.github/lighthouse.jpg" />
 
 <a href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss" align="center">
   <p href="" align="center">
