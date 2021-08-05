@@ -22,8 +22,8 @@ class MyDocument extends Document {
           <script
             async
             defer
-            src="https://aurora.saurish.com/aurora.js"
-            aurora-id="5e02685e0e8eebb2f989f4b19d2c40ef"
+            data-website-id="ce211351-10bc-4b51-9ba8-9245e9b03c57"
+            src="https://umami.saurish.com/umami.js"
           ></script>
         </Head>
         <body>
