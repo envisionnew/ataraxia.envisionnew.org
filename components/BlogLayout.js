@@ -17,8 +17,7 @@ export default function BlogLayout(props) {
   const meta = {
     title: "Blog | Ataraxia",
     description: `Find student-written and community-written content about neurodiversity and neuroscience.`,
-    image: "http://ataraxiahealth.org/favicon/send.png",
-    type: "website",
+    type: "article",
     ...customMeta,
   };
 

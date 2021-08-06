@@ -9,7 +9,7 @@ import Impact from "../components/Impact";
 import Kits from "../components/Kits";
 import Podcast from "../components/Podcast";
 import Join from "../components/Join";
-import MainImage from "../public/images/main.jpg"
+import MainImage from "../public/images/main.jpg";
 
 export default function Home() {
   return (
@@ -84,7 +84,11 @@ export default function Home() {
                 href="https://donorbox.org/ataraxia-project-envision-us/"
               >
                 <div className="transition duration-700 md:hover:transform md:hover:scale-105">
-                  <Image src={MainImage} className="rounded-md shadow-2xl h-80 hover:shadow-3xl md:rounded-xl" alt="A few kits that were delivered to a homeless shelter" />
+                  <Image
+                    src={MainImage}
+                    className="rounded-md shadow-2xl h-80 hover:shadow-3xl md:rounded-xl"
+                    alt="A few kits that were delivered to a homeless shelter"
+                  />
                 </div>
               </a>
             </div>
