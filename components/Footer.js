@@ -91,7 +91,7 @@ export default function Footer() {
           <a
             aria-label="instagram"
             className="ml-3"
-            href="https://instagram.com/ataraxiaorg"
+            href="https://instagram.com/ataraxiahealthh"
           >
             <svg
               fill="none"
