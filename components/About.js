@@ -40,7 +40,7 @@ const volunteers = [
     name: "Becky Montes",
     position: "Director of Public Relations",
     website: "https://www.instagram.com/_beckymontes/",
-    bio: "Junior @ Eagle Rock High School",
+    bio: "Junior @ John Marshall High School",
     image: "becky.jpeg",
   },
   {
