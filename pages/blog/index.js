@@ -40,9 +40,11 @@ export default function Home({ posts }) {
         <div className="flex flex-col items-center justify-center max-w-3xl mx-5 mb-10 -mt-5 md:mx-auto lg:mx-auto">
           <ul className="divide-y divide-gray-200 dark:divide-gray-750">
             {posts.map((post) => {
-              const date = new Date(
-                post.properties.Date.date.start
-              ).toLocaleString("en-US", {
+              const dateString = post.properties.Date.date.start.replace(
+                /-/g,
+                "/"
+              );
+              const date = new Date(dateString).toLocaleString("en-US", {
                 month: "short",
                 day: "2-digit",
                 year: "numeric",

@@ -8,6 +8,7 @@ const imageSources = [
   "images.unsplash.com",
   "s3-us-west-2.amazonaws.com",
   "imgur.com",
+  "lh3.googleusercontent.com",
 ];
 
 export const Text = ({ text }) => {
@@ -37,6 +38,9 @@ export const Text = ({ text }) => {
       >
         {text.link
           ? [
+              text.link.url.endsWith(".png") ||
+              text.link.url.endsWith(".jpg") ||
+              text.link.url.endsWith(".gif") ||
               imageSources.some((u) => text.link.url.includes(u)) ? (
                 <div className="mx-4">
                   <img
@@ -142,9 +146,11 @@ export default function Post({ page, blocks }) {
     return <div />;
   }
   const imageLink =
-    "https://og-image.vercel.app/" +
-    page.properties.Name.title[0].plain_text +
-    "?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fwww.ataraxiahealth.org%2Ffavicon%2Flogo.png";
+    "https://og-image.vercel.app/**" +
+    page.properties.Name.title[0].plain_text.replace("?", "%3F") +
+    "**?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fwww.ataraxiahealth.org%2Ffavicon%2Flogo-white.png";
+
+  const dateString = page.properties.Date.date.start.replace(/-/g, "/");
 
   return (
     <BlogLayout
@@ -169,9 +175,7 @@ export default function Post({ page, blocks }) {
                     <dt className="sr-only">Published on</dt>
                     <dd className="text-base font-light leading-6 text-gray-500 dark:text-gray-400">
                       <time>
-                        {new Date(
-                          page.properties.Date.date.start
-                        ).toLocaleString("en-US", {
+                        {new Date(dateString).toLocaleString("en-US", {
                           month: "long",
                           day: "2-digit",
                           year: "numeric",
