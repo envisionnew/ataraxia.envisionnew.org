@@ -50,7 +50,7 @@ export default function Home({ posts }) {
                 year: "numeric",
               });
               return (
-                <li className="py-8">
+                <li className="py-8" key={post}>
                   <article className="max-w-xl">
                     <div className="xl:col-span-3">
                       <div>
