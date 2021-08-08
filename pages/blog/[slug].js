@@ -146,9 +146,9 @@ export default function Post({ page, blocks }) {
     return <div />;
   }
   const imageLink =
-    "https://og-image.vercel.app/**" +
+    "https://og.envisionnew.org/**" +
     page.properties.Name.title[0].plain_text.replace("?", "%3F") +
-    "**?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fwww.ataraxiahealth.org%2Ffavicon%2Flogo-white.png";
+    "**?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fwww.envisionnew.org%2Ffavicon%2Flogo-dark.png&images=https%3A%2F%2Fwww.ataraxiahealth.org%2Ffavicon%2Flogo-white-small.png";
 
   const dateString = page.properties.Date.date.start.replace(/-/g, "/");
 
