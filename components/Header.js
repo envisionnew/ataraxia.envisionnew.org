@@ -62,22 +62,22 @@ export default function Header() {
               </a>
             </Link>
             <Link href="/contact">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+              <a className="mt-2 text-black transition duration-300 md:mt-0 dark:text-gray-300 hover:text-gray-300">
                 Contact
               </a>
             </Link>
             <Link href="/courses">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+              <a className="mt-2 text-black transition duration-300 md:mt-0 dark:text-gray-300 hover:text-gray-300">
                 Courses
               </a>
             </Link>
             <Link href="/#join">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+              <a className="mt-2 text-black transition duration-300 md:mt-0 dark:text-gray-300 hover:text-gray-300">
                 Join
               </a>
             </Link>
             <Link href="/blog">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+              <a className="mt-2 text-black transition duration-300 md:mt-0 dark:text-gray-300 hover:text-gray-300">
                 Blog
               </a>
             </Link>
