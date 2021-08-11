@@ -10,7 +10,7 @@ const advisors = [
 const volunteers = [
   {
     name: "Shehbaz Singh Virk",
-    position: "Co-founder and Executive Director",
+    position: "Co-Founder and Executive Director",
     website: "https://www.linkedin.com/in/shehbazvirk",
     bio: "Undergrad @ University of California, Berkeley",
     image: "shehbaz.jpeg",
