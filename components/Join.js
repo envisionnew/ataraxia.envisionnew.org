@@ -3,7 +3,7 @@ export default function Join() {
     <section id="join" className="py-12">
       <div className="max-w-xl px-4 py-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
-          Join the adventure.
+          Join the team.
         </h1>
         <p className="max-w-md mx-auto mb-10 text-lg text-center text-gray-600 md:text-left dark:text-gray-400 md:text-lg">
           Do you want to help out in our mission? Sign up below to join our
