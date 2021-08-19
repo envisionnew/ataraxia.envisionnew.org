@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { getDatabase } from "../../lib/notion";
-import { NextSeo } from "next-seo";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
@@ -9,24 +8,32 @@ export const databaseId = process.env.NOTION_DATABASE_ID;
 export default function Home({ posts }) {
   return (
     <div className="h-screen bg-white dark:bg-black">
-      <NextSeo
-        title="Blog | Ataraxia"
-        description="Find student-written and community-written content about neurodiversity and neuroscience."
-        canonical="https://ataraxiahealth.org/blog/"
-        openGraph={{
-          url: "https://ataraxiahealth.org/blog",
-          title: "Blog | Ataraxia",
-          description:
-            "Find student-written and community-written content about neurodiversity and neuroscience.",
-          images: [
-            {
-              url: "/favicon/send.png",
-              alt: "Ataraxia's Logo",
-            },
-          ],
-          site_name: "Ataraxia – a non-profit organization.",
-        }}
-      />
+      <Head>
+        <title>Blog | Ataraxia</title>
+        <meta name="robots" content="follow, index" />
+        <meta
+          content="Find student-written and community-written content about neurodiversity and neuroscience."
+          name="description"
+        />
+        <meta property="og:url" content="https://ataraxiahealth.org/blog" />
+        <link rel="canonical" href="https://ataraxiahealth.org/blog" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Blog | Ataraxia" />
+        <meta
+          property="og:description"
+          content="Find student-written and community-written content about neurodiversity and neuroscience."
+        />
+        <meta property="og:title" content="Blog | Ataraxia" />
+        <meta property="og:image" content="/favicon/send.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ataraxiahealthh" />
+        <meta name="twitter:title" content="Blog | Ataraxia" />
+        <meta
+          name="twitter:description"
+          content="Find student-written and community-written content about neurodiversity and neuroscience."
+        />
+        <meta name="twitter:image" content="/favicon/send.png" />
+      </Head>
       <Header />
       <section className="relative text-gray-600 body-font">
         <div className="container px-5 pt-12 pb-12 mx-auto">
