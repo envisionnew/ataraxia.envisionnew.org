@@ -91,7 +91,7 @@ const renderBlock = (block) => {
       );
     case "heading_3":
       return (
-        <h3 className="my-4 text-lg font-bold leading-relaxed text-black dark:text-white md:text-xl">
+        <h3 className="my-4 text-lg font-bold leading-relaxed text-black anchor dark:text-white md:text-xl">
           <Text text={value.text} />
         </h3>
       );

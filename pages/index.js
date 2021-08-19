@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { NextSeo } from "next-seo";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import About from "../components/About";
@@ -14,24 +13,41 @@ import MainImage from "../public/images/main.jpg";
 export default function Home() {
   return (
     <div className="bg-white dark:bg-black">
-      <NextSeo
-        title="Ataraxia – a non-profit organization."
-        description="Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations."
-        canonical="https://ataraxiahealth.org/"
-        openGraph={{
-          url: "https://ataraxiahealth.org",
-          title: "Ataraxia – a non-profit organization.",
-          description:
-            "Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations.",
-          images: [
-            {
-              url: "/favicon/send.png",
-              alt: "Ataraxia's Logo",
-            },
-          ],
-          site_name: "Ataraxia – a non-profit organization.",
-        }}
-      />
+      <Head>
+        <title>Ataraxia – a non-profit organization.</title>
+        <meta name="robots" content="follow, index" />
+        <meta
+          content="Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations."
+          name="description"
+        />
+        <meta property="og:url" content="https://ataraxiahealth.org" />
+        <link rel="canonical" href="https://ataraxiahealth.org" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:site_name"
+          content="Ataraxia – a non-profit organization."
+        />
+        <meta
+          property="og:description"
+          content="Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations."
+        />
+        <meta
+          property="og:title"
+          content="Ataraxia – a non-profit organization."
+        />
+        <meta property="og:image" content="/favicon/send.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ataraxiahealthh" />
+        <meta
+          name="twitter:title"
+          content="Ataraxia – a non-profit organization."
+        />
+        <meta
+          name="twitter:description"
+          content="Ataraxia is a non-profit organization dedicated to promoting neurodiversity within our communities, while creating tangible impacts in the mental health of homeless populations."
+        />
+        <meta name="twitter:image" content="/favicon/send.png" />
+      </Head>
       <Header />
       <section className="relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
