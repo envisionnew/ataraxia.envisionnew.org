@@ -16,14 +16,14 @@ export default function Podcast() {
         </h1>
         <div className="max-w-4xl mx-auto">
           <iframe
-            src="https://open.spotify.com/embed/episode/5d4dmTZNdsOKcXEyv8kzgu"
+            src="https://open.spotify.com/embed/episode/5lsKZX1RprDf47aQa9MYlG"
             width="100%"
             height="232"
             title="Speaking from Empathy Spotify Podcast"
             frameBorder="0"
             allowtransparency="true"
             allow="encrypted-media"
-          />
+          ></iframe>
         </div>
       </div>
     </section>
