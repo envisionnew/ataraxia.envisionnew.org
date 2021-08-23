@@ -24,7 +24,7 @@ const volunteers = [
   },
   {
     name: "Shaheryar Asad",
-    position: "Director of Research",
+    position: "Director of External Research",
     website: "https://www.linkedin.com/in/shaheryar-asad-0089b7140",
     bio: "Undergrad @ University of California, Berkeley",
     image: "shaheryar.jpeg",
@@ -42,6 +42,20 @@ const volunteers = [
     website: "https://www.instagram.com/_beckymontes/",
     bio: "Junior @ John Marshall High School",
     image: "becky.jpeg",
+  },
+  {
+    name: "Jehan Idsassi",
+    position: "Director of Research",
+    website: " https://www.linkedin.com/in/jehan-idsassi-9399161bb/",
+    bio: "Sophomore @ Eleanor Roosevelt High School",
+    image: "jehan.png",
+  },
+  {
+    name: "Navneeth Murali",
+    position: "Director of Neuroscience Education",
+    website: "",
+    bio: "Sophomore @ Edison",
+    image: "navneeth.jpeg",
   },
   {
     name: "Varun Bommaji",

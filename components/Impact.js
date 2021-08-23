@@ -23,7 +23,7 @@ export default function Impact() {
         <div className="flex flex-wrap -m-4 text-center">
           <div className="w-1/3 p-4">
             <h2 className="text-4xl font-medium text-black dark:text-white title-font sm:text-5xl">
-              <CountUp end={200} redraw={true}>
+              <CountUp end={500} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />
@@ -38,7 +38,7 @@ export default function Impact() {
           </div>
           <div className="w-1/3 p-4">
             <h2 className="text-4xl font-medium text-black dark:text-white title-font sm:text-5xl">
-              <CountUp end={1} redraw={true}>
+              <CountUp end={2} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />
