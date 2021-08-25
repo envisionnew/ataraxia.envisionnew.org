@@ -5,7 +5,12 @@ const resources = [
     name: "Neurodiversity Wiki",
     link: "https://neurodiversity.wiki/?utm_source=ataraxiahealth.org",
     description: [
-      `Tool: This is a wiki that provides resources to understand different neurotypical identities. It is written by people who experience these conditions and provides a first-perspective look at what not to do.`,
+      <p>
+        <span className="font-semibold">Tool</span>: This is a wiki that
+        provides resources to understand different neurotypical identities. It
+        is written by people who experience these conditions and provides a
+        first-perspective look at what not to do.
+      </p>,
     ],
     image: "neurodiversitywiki",
   },
@@ -13,7 +18,12 @@ const resources = [
     name: "Neurodiversity Hub",
     link: "https://www.neurodiversityhub.org/?utm_source=ataraxiahealth.org",
     description: [
-      `Made for Students: "The intent is to provide programs to support neurodivergent students to become work-ready, and build connections with organisations that value their talents."`,
+      <p>
+        <span className="font-semibold">Made for Students</span>: "The intent is
+        to provide programs to support neurodivergent students to become
+        work-ready, and build connections with organisations that value their
+        talents."
+      </p>,
     ],
     image: "neurodiversityhub",
   },
