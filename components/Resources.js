@@ -61,7 +61,7 @@ export default function Resources() {
                       height={1200}
                       alt={`${resource.name} landing page`}
                     />
-                    {/* Dimensions on https://frameshift.cc: ~~~ x ~~~ */}
+                    {/* Dimensions on https://frameshift.cc: 550 x 400 */}
                   </div>
                 </a>
               </div>

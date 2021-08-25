@@ -130,7 +130,7 @@ export default function About() {
                     <img
                       alt={`Image of ${volunteer.name}`}
                       className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80 md:h-60"
-                      src={`/images/${volunteer.image}`}
+                      src={`/images/volunteers/${volunteer.image}`}
                     />
                     <div className="w-full">
                       <a
@@ -176,7 +176,7 @@ export default function About() {
                     <img
                       alt={`Image of ${advisor.name}`}
                       className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80 md:h-60"
-                      src={`/images/${advisor.image}`}
+                      src={`/images/advisors/${advisor.image}`}
                     />
                     <div className="w-full">
                       <a
