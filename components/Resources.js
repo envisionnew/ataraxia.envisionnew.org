@@ -1,6 +1,23 @@
-import Image from 'next/image';
-import NeurodiversityWiki from "../public/images/neurodiversity.png"
-import NeurodiversityHub from "../public/images/neurodiversityhub.png"
+import Image from "next/image";
+
+const resources = [
+  {
+    name: "Neurodiversity Wiki",
+    link: "https://neurodiversity.wiki/?utm_source=ataraxiahealth.org",
+    description: [
+      `Tool: This is a wiki that provides resources to understand different neurotypical identities. It is written by people who experience these conditions and provides a first-perspective look at what not to do.`,
+    ],
+    image: "neurodiversitywiki",
+  },
+  {
+    name: "Neurodiversity Hub",
+    link: "https://www.neurodiversityhub.org/?utm_source=ataraxiahealth.org",
+    description: [
+      `Made for Students: "The intent is to provide programs to support neurodivergent students to become work-ready, and build connections with organisations that value their talents."`,
+    ],
+    image: "neurodiversityhub",
+  },
+];
 
 export default function Resources() {
   return (
@@ -23,70 +40,42 @@ export default function Resources() {
           your mental health.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div className="mb-10 space-y-6">
-            <div className="text-center sm:text-left">
-              <a
-                href="https://neurodiversity.wiki/?utm_source=ataraxiahealth.org"
-                rel="noreferrer"
-                className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl"
-              >
-                Neurodiversity Wiki
-              </a>
+          {resources.map((resource) => (
+            <div className="mb-10 space-y-6">
+              <div className="text-center sm:text-left">
+                <a
+                  href={resource.link}
+                  rel="noreferrer"
+                  className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl"
+                >
+                  {resource.name}
+                </a>
+              </div>
+              <div className="h-auto">
+                <a href={resource.link} rel="noreferrer" target="_blank">
+                  <div className="rounded-lg">
+                    <Image
+                      src={`/images/${resource.image}.png`}
+                      className="transition duration-700 rounded-md shadow-2xl md:rounded-xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
+                      width={1650}
+                      height={1200}
+                      alt={`${resource.name} landing page`}
+                    />
+                    {/* Dimensions on https://frameshift.cc: ~~~ x ~~~ */}
+                  </div>
+                </a>
+              </div>
+              <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+                <ul className="mr-0 md:mr-10">
+                  {resource.description.map((list) => (
+                    <li key={list} className="mb-2">
+                      {list}
+                    </li>
+                  ))}
+                </ul>
+              </p>
             </div>
-            <div className="h-auto">
-              <a
-                href="https://neurodiversity.wiki/?utm_source=ataraxiahealth.org"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <div className="rounded-lg">
-                  <Image src={NeurodiversityWiki} className="transition duration-700 rounded-md shadow-2xl md:rounded-xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105" alt="Neurodiversity Wiki Landing Page" />
-                </div>
-              </a>
-            </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
-              <ul className="mr-0 md:mr-10">
-                <li className="mb-2">
-                  <span className="font-semibold">Tool</span>: This is a wiki
-                  that provides resources to understand different neurotypical
-                  identities. It is written by people who experience these
-                  conditions and provides a first-perspective look at what{" "}
-                  <i>not</i> to do.
-                </li>
-              </ul>
-            </p>
-          </div>
-          <div className="mb-10 space-y-6">
-            <div className="text-center sm:text-left">
-              <a
-                href="https://www.neurodiversityhub.org/?utm_source=ataraxiahealth.org"
-                className="text-xl font-bold underline text-rose-600 dark:text-rose-300 md:text-2xl"
-              >
-                Neurodiversity Hub
-              </a>
-            </div>
-            <div className="h-auto">
-              <a
-                href="https://www.neurodiversityhub.org/?utm_source=ataraxiahealth.org"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <div className="rounded-lg">
-                  <Image src={NeurodiversityHub} className="transition duration-700 rounded-md shadow-2xl md:rounded-xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105" alt="Neurodiversity Hub Landing Page" />
-                </div>
-              </a>
-            </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
-              <ul className="mr-0 md:mr-10">
-                <li className="mb-2">
-                  <span className="font-semibold">Made for Students</span>: "The
-                  intent is to provide programs to support neurodivergent
-                  students to become work-ready, and build connections with
-                  organisations that value their talents."
-                </li>
-              </ul>
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </section>
