@@ -3,7 +3,7 @@ import Image from "next/image";
 const resources = [
   {
     name: "Neurodiversity Wiki",
-    link: "https://neurodiversity.wiki/?utm_source=ataraxiahealth.org",
+    link: "https://neurodiversity.wiki",
     description: [
       <p>
         <span className="font-semibold">Tool</span>: This is a wiki that
@@ -16,7 +16,7 @@ const resources = [
   },
   {
     name: "Neurodiversity Hub",
-    link: "https://www.neurodiversityhub.org/?utm_source=ataraxiahealth.org",
+    link: "https://www.neurodiversityhub.org",
     description: [
       <p>
         <span className="font-semibold">Made for Students</span>: "The intent is
@@ -54,7 +54,7 @@ export default function Resources() {
             <div className="mb-10 space-y-6">
               <div className="text-center sm:text-left">
                 <a
-                  href={resource.link}
+                  href={`${resource.link}/?utm_source=ataraxiahealth.org`}
                   rel="noreferrer"
                   className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl"
                 >
@@ -62,7 +62,11 @@ export default function Resources() {
                 </a>
               </div>
               <div className="h-auto">
-                <a href={resource.link} rel="noreferrer" target="_blank">
+                <a
+                  href={`${resource.link}/?utm_source=ataraxiahealth.org`}
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <div className="rounded-lg">
                     <Image
                       src={`/images/${resource.image}.png`}
