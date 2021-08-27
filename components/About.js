@@ -75,7 +75,7 @@ export default function About() {
         </h1>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="mb-10 space-y-6">
-            <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl">
+            <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
               Definition
             </h1>
             <div className="h-auto">
@@ -97,7 +97,7 @@ export default function About() {
             </p>
           </div>
           <div className="mb-10 space-y-6">
-            <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl">
+            <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
               Mission Statement
             </h1>
             <div className="h-auto">
@@ -119,7 +119,7 @@ export default function About() {
           </div>
         </div>
         <div className="mb-10 space-y-6">
-          <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl">
+          <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
             Our Team
           </h1>
           <div className="container px-5 py-8 mx-auto">
@@ -165,7 +165,7 @@ export default function About() {
           </div>
         </div>
         <div className="mb-10 space-y-6">
-          <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl">
+          <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
             Our Advisors
           </h1>
           <div className="container px-5 py-8 mx-auto">

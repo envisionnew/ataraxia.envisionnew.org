@@ -3,7 +3,7 @@ import Image from "next/image";
 const resources = [
   {
     name: "Neurodiversity Wiki",
-    link: "https://neurodiversity.wiki",
+    link: "https://www.neurodiversity.wiki/",
     description: [
       <p>
         <span className="font-semibold">Tool</span>: This is a wiki that
@@ -26,6 +26,34 @@ const resources = [
       </p>,
     ],
     image: "neurodiversityhub",
+  },
+  {
+    name: "Neurodiversity Network",
+    link: "https://www.neurodiversitynetwork.net",
+    description: [
+      <p>
+        <span className="font-semibold">Direct Resources</span>: "The purpose of
+        Neurodiversity Network is to provide resources for neurodivergent job
+        seekers and neurodivergent students, employers & universities, & the
+        support of the neurodiverse community. Our mission is to consolidate
+        various neurodiversity resources into one place."
+      </p>,
+    ],
+    image: "neurodiversitynetwork",
+  },
+  {
+    name: "Pivotdiversity Neurodiversity",
+    link: "https://www.pivotdiversity.com/neurodiversity",
+    description: [
+      <p>
+        <span className="font-semibold">Informational</span>: The website
+        contains some definitions of common terms associated with
+        neurodiversity. It answers some crucial questions through a beautiful
+        graphic. It also highlights some members of the neurodiverse community.
+        This is a powerful website!
+      </p>,
+    ],
+    image: "pivotneurodiversity",
   },
 ];
 
@@ -56,7 +84,7 @@ export default function Resources() {
                 <a
                   href={`${resource.link}/?utm_source=ataraxiahealth.org`}
                   rel="noreferrer"
-                  className="text-xl font-bold text-center underline text-rose-600 dark:text-rose-300 md:text-2xl"
+                  className="text-xl font-bold text-center outer-glow text-purple-headers dark:text-purple-headers-dark md:text-2xl"
                 >
                   {resource.name}
                 </a>
