@@ -34,3 +34,19 @@ body::-webkit-scrollbar-thumb {
   background-color: #f81ce5;
   color: #fefefe;
 }
+
+.outer-glow:hover {
+  text-shadow: 0px 0px 20px #6865a1;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.dark .outer-glow:hover {
+  text-shadow: 0px 0px 40px #cec5e4;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
