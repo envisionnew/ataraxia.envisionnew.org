@@ -13,7 +13,6 @@ module.exports = {
         rose: colors.rose,
         violet: colors.violet,
         fuchsia: colors.fuchsia,
-        "podcast-purple": "#85708C",
         "link-blue": "#3B719F",
         "link-purple": "#8F8CE7",
         "purple-headers": "#6865a1",
