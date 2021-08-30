@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .outer-glow:hover {
-  text-shadow: 0px 0px 20px #6865a1;
+  text-shadow: 0px 0px 20px #616ecf;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dark .outer-glow:hover {
-  text-shadow: 0px 0px 40px #cec5e4;
+  text-shadow: 0px 0px 30px #a2aae3;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;

@@ -84,7 +84,7 @@ export default function Resources() {
                 <a
                   href={`${resource.link}/?utm_source=ataraxiahealth.org`}
                   rel="noreferrer"
-                  className="text-xl font-bold text-center underline md:no-underline outer-glow text-purple-headers dark:text-purple-headers-dark md:text-2xl"
+                  className="text-xl font-bold text-center underline md:no-underline outer-glow text-blue-headers dark:text-blue-headers-dark md:text-2xl"
                 >
                   {resource.name}
                 </a>

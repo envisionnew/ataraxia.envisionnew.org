@@ -81,14 +81,14 @@ export default function About() {
         </h1>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="mb-10 space-y-6">
-            <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
+            <h1 className="text-xl font-bold text-center text-blue-headers dark:text-blue-headers-dark md:text-2xl">
               Definition
             </h1>
             <div className="h-auto">
               <img
                 className="w-10 mx-auto transition duration-700 rounded shadow-2xl hover:shadow-3xl md:hover:transform md:hover:scale-105"
                 alt="Ataraxia Logo"
-                src="../favicon/logo.png"
+                src="../favicon/ataraxia-rainbow-logo.png"
               />
             </div>
             <p className="mx-2 font-normal text-center text-gray-500 md:text-left dark:text-gray-400 text-md">
@@ -103,14 +103,14 @@ export default function About() {
             </p>
           </div>
           <div className="mb-10 space-y-6">
-            <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
+            <h1 className="text-xl font-bold text-center text-blue-headers dark:text-blue-headers-dark md:text-2xl">
               Mission Statement
             </h1>
             <div className="h-auto">
               <img
                 className="w-10 mx-auto transition duration-700 rounded shadow-2xl hover:shadow-3xl md:hover:transform md:hover:scale-105"
                 alt="Ataraxia Logo"
-                src="../favicon/logo.png"
+                src="../favicon/ataraxia-rainbow-logo.png"
               />
             </div>
             <p className="mx-2 font-normal text-center text-gray-500 md:text-left dark:text-gray-400 text-md">
@@ -125,7 +125,7 @@ export default function About() {
           </div>
         </div>
         <div className="mb-10 space-y-6">
-          <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
+          <h1 className="text-xl font-bold text-center text-blue-headers dark:text-blue-headers-dark md:text-2xl">
             Our Team
           </h1>
           <div className="container px-5 py-8 mx-auto">
@@ -171,7 +171,7 @@ export default function About() {
           </div>
         </div>
         <div className="mb-10 space-y-6">
-          <h1 className="text-xl font-bold text-center text-purple-headers dark:text-purple-headers-dark md:text-2xl">
+          <h1 className="text-xl font-bold text-center text-blue-headers dark:text-blue-headers-dark md:text-2xl">
             Our Advisors
           </h1>
           <div className="container px-5 py-8 mx-auto">

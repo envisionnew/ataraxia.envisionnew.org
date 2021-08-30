@@ -8,7 +8,7 @@ export default function Podcast() {
             href="https://open.spotify.com/show/4U8uJhkkXDlCQkraemyfcs?si=sz2BiEqATg6OrEgaS5urfw&dl_branch=1"
             rel="noopener noreferrer"
             target="_blank"
-            className="underline md:no-underline outer-glow text-purple-headers hover:text-violet-300 dark:text-purple-headers-dark"
+            className="underline md:no-underline outer-glow text-blue-headers dark:text-blue-headers-dark"
           >
             Speaking from Empathy
           </a>{" "}

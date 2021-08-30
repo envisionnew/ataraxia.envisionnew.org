@@ -36,6 +36,12 @@ module.exports = {
           "mailto:saurish@envisionnew.org?cc=shehbaz.virk@envisionnew.org&subject=Ataraxia: Contact",
         permanent: true,
       },
+      {
+        source: "/podcast",
+        destination:
+          "https://open.spotify.com/show/4U8uJhkkXDlCQkraemyfcs?si=QgNnTib1TG2c6mxx0teM2Q&dl_branch=1",
+        permanent: true,
+      },
     ];
   },
 };
