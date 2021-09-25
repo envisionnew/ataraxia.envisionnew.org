@@ -46,11 +46,10 @@ export default function Header() {
         </div>
         <div
           className={
-            "md:flex flex-grow items-center" +
-            (navbarOpen ? " flex" : " hidden")
+            "md:flex flex-grow items-center " + (navbarOpen ? "flex" : "hidden")
           }
         >
-          <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-12 md:mx-auto md:pl-14">
+          <div className="flex flex-wrap items-center justify-center pt-1 pl-2 space-x-8 md:space-x-12 md:mx-auto md:pl-14">
             <Link href="/#about">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 About
