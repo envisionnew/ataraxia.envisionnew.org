@@ -64,12 +64,12 @@ const volunteers = [
     bio: "Junior @ Evergreen Valley High School (San Jose, CA)",
     image: "varun.jpeg",
   },
-  // {
-  //   name: "Maha Idsassi",
-  //   position: "Director of Podcast Research",
-  //   bio: "Senior @ Eleanor Roosevelt High School (Greenbelt, MD)",
-  //   image: "maha.jpeg",
-  // },
+  {
+    name: "Maha Idsassi",
+    position: "Director of Podcast Research",
+    bio: "Senior @ Eleanor Roosevelt High School (Greenbelt, MD)",
+    image: "maha.jpeg",
+  },
 ];
 
 export default function About() {
