@@ -4,13 +4,6 @@ import { databaseId } from "./index.js";
 import { v4 as uuid } from "uuid";
 import BlogLayout from "../../components/BlogLayout";
 
-const imageSources = [
-  "images.unsplash.com",
-  "s3-us-west-2.amazonaws.com",
-  "imgur.com",
-  "lh3.googleusercontent.com",
-];
-
 export const Text = ({ text }) => {
   if (!text) {
     return null;
@@ -36,31 +29,18 @@ export const Text = ({ text }) => {
         ].join(" ")}
         style={color !== "default" ? { color } : {}}
       >
-        {text.link
-          ? [
-              text.link.url.endsWith(".png") ||
-              text.link.url.endsWith(".jpg") ||
-              text.link.url.endsWith(".gif") ||
-              imageSources.some((u) => text.link.url.includes(u)) ? (
-                <div className="mx-4">
-                  <img
-                    src={text.link.url}
-                    alt={text.content}
-                    className="w-full rounded-md"
-                  />
-                </div>
-              ) : (
-                <a
-                  className="underline text-link-blue dark:text-link-purple"
-                  href={text.link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {text.content}
-                </a>
-              ),
-            ]
-          : text.content}
+        {text.link ? (
+          <a
+            className="underline text-link-blue dark:text-link-purple"
+            href={text.link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {text.content}
+          </a>
+        ) : (
+          text.content
+        )}
       </span>
     );
   });
@@ -131,6 +111,18 @@ const renderBlock = (block) => {
       );
     case "child_page":
       return <p>{value.title}</p>;
+    case "image":
+      const src =
+        value.type === "external" ? value.external.url : value.file.url;
+      const caption = value.caption ? value.caption[0].plain_text : "";
+      return (
+        <figure>
+          <img className="mx-auto rounded-md" src={src} alt={caption} />
+          {caption && (
+            <figcaption className="text-center">{caption}</figcaption>
+          )}
+        </figure>
+      );
     default:
       return (
         <p className="leading-relaxed text-gray-700 dark:text-gray-300">
@@ -230,7 +222,7 @@ export default function Post({ page, blocks }) {
                   </ul>
                 </dd>
               </dl>
-              <div className="divide-y divide-gray-200">
+              <div className="divide-y divide-gray-200 dark:divide-gray-750">
                 <div className="pt-10 pb-8 prose max-w-none">
                   {blocks.map((block) => (
                     <Fragment key={block.id}>{renderBlock(block)}</Fragment>
