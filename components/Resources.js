@@ -3,7 +3,7 @@ import Image from "next/image";
 const resources = [
   {
     name: "Neurodiversity Wiki",
-    link: "https://www.neurodiversity.wiki",
+    link: "http://www.neurodiversity.wiki",
     description: [
       <p>
         <span className="font-semibold">Tool</span>: This is a wiki that
