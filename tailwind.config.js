@@ -17,6 +17,7 @@ module.exports = {
         "link-purple": "#8F8CE7",
         "blue-headers": "#5b69cd",
         "blue-headers-dark": "#a2aae3",
+        "pink-podcast": "#9D5AF2",
         "gray-custom": "#474747",
         "gray-750": "#374151",
       },

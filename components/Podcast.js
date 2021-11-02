@@ -16,7 +16,7 @@ export default function Podcast() {
         </h1>
         <div className="max-w-4xl mx-auto">
           <iframe
-            src="https://open.spotify.com/embed/episode/6ssINblRlWYVzsNlg4bny1"
+            src="https://open.spotify.com/embed/episode/2BEi0MAvn6WEdSeTxLGW9G?utm_source=generator"
             width="100%"
             height="232"
             title="Speaking from Empathy Spotify Podcast"
