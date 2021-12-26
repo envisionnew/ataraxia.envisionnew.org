@@ -51,13 +51,6 @@ const volunteers = [
     image: "jehan.png",
   },
   {
-    name: "Navneeth Murali",
-    position: "Director of Neuroscience Education",
-    website: "",
-    bio: "Sophomore @ Middlesex County Academy (Woodbridge, NJ)",
-    image: "navneeth.jpeg",
-  },
-  {
     name: "Varun Bommaji",
     position: "Secretary",
     website: "https://www.instagram.com/varunbommaji/",
@@ -69,6 +62,12 @@ const volunteers = [
     position: "Director of Podcast Research",
     bio: "Senior @ Eleanor Roosevelt High School (Greenbelt, MD)",
     image: "maha.jpeg",
+  },
+  {
+    name: "Kavitha Ravi",
+    position: "Podcast & Neuroscience Research",
+    bio: "Sophomore @ Castilleja School (Palo Alto, CA)",
+    image: "kavitha.jpeg",
   },
 ];
 
