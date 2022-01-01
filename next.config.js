@@ -25,6 +25,12 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/papers/neurodiversity-clinicians-scientists",
+        destination:
+          "https://drive.google.com/file/d/1ntY8OGLHDtzEG4G-sHKBClno3tF39oEi/view",
+        permanent: true,
+      },
+      {
         source: "/blog-submit",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSc_TvWiCG3y-w3FesxxWfxUJnefdG1opmGPxMwJ2Iz92RlPaw/viewform?usp=sf_link",
