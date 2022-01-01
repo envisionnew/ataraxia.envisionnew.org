@@ -104,6 +104,7 @@ export default function Home() {
                     src="/images/main.jpeg"
                     width={3840}
                     height={1920}
+                    layout="responsive"
                     className="rounded-md shadow-2xl h-80 hover:shadow-3xl md:rounded-xl"
                     alt="A few kits that were delivered to a homeless shelter"
                   />
