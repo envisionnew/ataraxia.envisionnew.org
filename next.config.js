@@ -31,6 +31,12 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/papers/neurodiversity-in-medicine",
+        destination:
+          "https://www1.racgp.org.au/getattachment/6fbb08b7-0378-4ef5-905a-d89e56900bcd/Embracing-neurodiversity-in-medicine.aspx",
+        permanent: true,
+      },
+      {
         source: "/blog-submit",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSc_TvWiCG3y-w3FesxxWfxUJnefdG1opmGPxMwJ2Iz92RlPaw/viewform?usp=sf_link",
