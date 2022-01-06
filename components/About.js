@@ -74,6 +74,7 @@ const volunteers = [
   {
     name: "Kavitha Ravi",
     position: "Podcast & Neuroscience Research",
+    website: "https://www.instagram.com/kavi._.ravi/",
     bio: "Sophomore @ Castilleja School (Palo Alto, CA)",
     image: "kavitha.jpeg",
   },
