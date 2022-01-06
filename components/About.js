@@ -69,6 +69,12 @@ const volunteers = [
     bio: "Sophomore @ Castilleja School (Palo Alto, CA)",
     image: "kavitha.jpeg",
   },
+  {
+    name: "Sarang Kim",
+    position: "Neuroscience Research",
+    bio: "Junior @ Millard North High School (Omaha, Nebraska)",
+    image: "sarang.JPG",
+  },
 ];
 
 export default function About() {
