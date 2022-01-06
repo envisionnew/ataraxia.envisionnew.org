@@ -12,7 +12,7 @@ const volunteers = [
     name: "Shehbaz Singh Virk",
     position: "Co-Founder and Executive Director",
     website: "https://www.linkedin.com/in/shehbazvirk",
-    bio: "Junior @ University of California, Berkeley",
+    bio: "Junior @ University of California, Berkeley (MCB & Public Health)",
     image: "shehbaz.jpeg",
   },
   {
@@ -30,6 +30,14 @@ const volunteers = [
     image: "shaheryar.jpeg",
   },
   {
+    name: "Pratush Saravanan",
+    position: "Director of Neuroscience Education",
+    website: "https://www.linkedin.com/in/pratushs",
+    bio: "Junior @ University of California, Berkeley (MCB)",
+    image: "pratush.jpeg",
+  },
+
+  {
     name: "Leah Altamirano",
     position: "Director of Outreach",
     website: "https://www.instagram.com/leahaltamirano/",
@@ -45,7 +53,7 @@ const volunteers = [
   },
   {
     name: "Jehan Idsassi",
-    position: "Director of Research",
+    position: "Podcast & Neuroscience Resaerch",
     website: " https://www.linkedin.com/in/jehan-idsassi-9399161bb/",
     bio: "Sophomore @ Eleanor Roosevelt High School (Greenbelt, MD)",
     image: "jehan.png",
@@ -59,7 +67,7 @@ const volunteers = [
   },
   {
     name: "Maha Idsassi",
-    position: "Director of Podcast Research",
+    position: "Podcast & Neuroscience Resaerch",
     bio: "Senior @ Eleanor Roosevelt High School (Greenbelt, MD)",
     image: "maha.jpeg",
   },
