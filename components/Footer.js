@@ -130,6 +130,11 @@ export default function Footer() {
           </a>
         </span>
       </div>
+      <div className="container flex flex-col items-center px-4 pb-8 mx-auto md:px-5 sm:flex-row">
+        <span className="flex items-center justify-center text-sm font-medium text-center md:justify-start md:ml-3">
+          Ataraxia is a PVSA certifying non-profit organization.
+        </span>
+      </div>
     </footer>
   );
 }
