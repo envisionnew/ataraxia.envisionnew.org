@@ -20,7 +20,7 @@ const volunteers = [
     position: "Co-Founder and Director of Operations",
     website: "https://saurish.com",
     bio: "Junior @ Evergreen Valley High School (San Jose, CA)",
-    image: "saurish.jpeg",
+    image: "saurish.jpg",
   },
   {
     name: "Shaheryar Asad",
@@ -81,8 +81,14 @@ const volunteers = [
   {
     name: "Sarang Kim",
     position: "Neuroscience Research",
-    bio: "Junior @ Millard North High School (Omaha, Nebraska)",
+    bio: "Junior @ Millard North High School (Omaha, NE)",
     image: "sarang.JPG",
+  },
+  {
+    name: "Srilaasya Nedunoori",
+    position: "Podcast & Neuroscience Research",
+    bio: "Junior @ Millard North High School (Omaha, NE)",
+    image: "srilaasya.JPG",
   },
 ];
 
