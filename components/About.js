@@ -53,7 +53,7 @@ const volunteers = [
   },
   {
     name: "Jehan Idsassi",
-    position: "Podcast & Neuroscience Resaerch",
+    position: "Podcast & Neuroscience Research",
     website: " https://www.linkedin.com/in/jehan-idsassi-9399161bb/",
     bio: "Sophomore @ Eleanor Roosevelt High School (Greenbelt, MD)",
     image: "jehan.png",
@@ -67,7 +67,7 @@ const volunteers = [
   },
   {
     name: "Maha Idsassi",
-    position: "Podcast & Neuroscience Resaerch",
+    position: "Podcast & Neuroscience Research",
     bio: "Senior @ Eleanor Roosevelt High School (Greenbelt, MD)",
     image: "maha.jpeg",
   },
@@ -89,6 +89,12 @@ const volunteers = [
     position: "Podcast & Neuroscience Research",
     bio: "Junior @ Millard North High School (Omaha, NE)",
     image: "srilaasya.JPG",
+  },
+  {
+    name: "Vibha Kashyap",
+    position: "Neuroscience Research & Promotional Art",
+    bio: "Sophomore @ Evergreen Valley High School (San Jose, CA)",
+    image: "vibha.jpeg",
   },
 ];
 
