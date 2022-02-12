@@ -43,6 +43,12 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/papers/packin2020",
+        destination:
+          "https://drive.google.com/file/d/1MTmKcsWIQA2KFigJBBbyJaMtI0fNLMfx/view?usp=sharing",
+        permanent: true,
+      },
+      {
         source: "/blog-submit",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSc_TvWiCG3y-w3FesxxWfxUJnefdG1opmGPxMwJ2Iz92RlPaw/viewform?usp=sf_link",
