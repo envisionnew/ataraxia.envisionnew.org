@@ -23,20 +23,26 @@ const volunteers = [
     image: "saurish.jpg",
   },
   {
-    name: "Shaheryar Asad",
-    position: "Director of External Research",
-    website: "https://www.linkedin.com/in/shaheryar-asad-0089b7140",
-    bio: "Junior @ University of California, Berkeley",
-    image: "shaheryar.jpeg",
-  },
-  {
     name: "Pratush Saravanan",
     position: "Director of Neuroscience Education",
     website: "https://www.linkedin.com/in/pratushs",
     bio: "Junior @ University of California, Berkeley (MCB)",
     image: "pratush.jpeg",
   },
-
+  {
+    name: "Mihir Shah",
+    position: "Director of Community Engagement",
+    website: "https://www.linkedin.com/in/mihirsh4h/",
+    bio: "Junior @ University of California, Berkeley (MCB)",
+    image: "mihir.jpeg",
+  },
+  {
+    name: "Shaheryar Asad",
+    position: "Director of External Research",
+    website: "https://www.linkedin.com/in/shaheryar-asad-0089b7140",
+    bio: "Junior @ University of California, Berkeley",
+    image: "shaheryar.jpeg",
+  },
   {
     name: "Leah Altamirano",
     position: "Director of Outreach",
