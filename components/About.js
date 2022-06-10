@@ -20,7 +20,7 @@ const volunteers = [
     position: "Co-Founder and Director of Operations",
     website: "https://saurish.com",
     bio: "Junior @ Evergreen Valley High School (San Jose, CA)",
-    image: "saurish.jpeg",
+    image: "saurish.JPG",
   },
   {
     name: "Pratush Saravanan",
