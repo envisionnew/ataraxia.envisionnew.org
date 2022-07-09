@@ -1,106 +1,106 @@
 const advisors = [
   {
-    name: "Rushil Srivastava",
-    website: "https:rushilsrivastava.com",
-    image: "rushil.jpeg",
-    bio: "Co-Founder at Simplify; University of California, Berkeley",
+    name: 'Rushil Srivastava',
+    website: 'https:rushilsrivastava.com',
+    image: 'rushil.jpeg',
+    bio: 'Co-Founder at Simplify; University of California, Berkeley',
   },
 ];
 
 const volunteers = [
   {
-    name: "Shehbaz Singh Virk",
-    position: "Co-Founder and Executive Director",
-    website: "https://www.linkedin.com/in/shehbazvirk",
-    bio: "Senior @ University of California, Berkeley (MCB & Public Health)",
-    image: "shehbaz.jpeg",
+    name: 'Shehbaz Singh Virk',
+    position: 'Co-Founder and Executive Director',
+    website: 'https://www.linkedin.com/in/shehbazvirk',
+    bio: 'Senior @ University of California, Berkeley (MCB & Public Health)',
+    image: 'shehbaz.jpeg',
   },
   {
-    name: "Saurish Srivastava",
-    position: "Co-Founder and Director of Operations",
-    website: "https://saurish.com",
-    bio: "Senior @ Evergreen Valley High School (San Jose, CA)",
-    image: "saurish.JPG",
+    name: 'Saurish Srivastava',
+    position: 'Co-Founder and Director of Operations',
+    website: 'https://saurish.com',
+    bio: 'Senior @ Evergreen Valley High School (San Jose, CA)',
+    image: 'saurish.JPG',
   },
   {
-    name: "Pratush Saravanan",
-    position: "Director of Neuroscience Education",
-    website: "https://www.linkedin.com/in/pratushs",
-    bio: "Senior @ University of California, Berkeley (MCB)",
-    image: "pratush.jpeg",
+    name: 'Pratush Saravanan',
+    position: 'Director of Neuroscience Education',
+    website: 'https://www.linkedin.com/in/pratushs',
+    bio: 'Senior @ University of California, Berkeley (MCB)',
+    image: 'pratush.jpeg',
   },
   {
-    name: "Mihir Shah",
-    position: "Director of Community Engagement",
-    website: "https://www.linkedin.com/in/mihirsh4h/",
-    bio: "Senior @ University of California, Berkeley (MCB)",
-    image: "mihir.jpeg",
+    name: 'Mihir Shah',
+    position: 'Director of Community Engagement',
+    website: 'https://www.linkedin.com/in/mihirsh4h/',
+    bio: 'Senior @ University of California, Berkeley (MCB)',
+    image: 'mihir.jpeg',
   },
   {
-    name: "Shaheryar Asad",
-    position: "Director of External Research",
-    website: "https://www.linkedin.com/in/shaheryar-asad-0089b7140",
-    bio: "Senior @ University of California, Berkeley",
-    image: "shaheryar.jpeg",
+    name: 'Krish Dewan',
+    position: 'Director of Fundraising',
+    website: 'https://www.instagram.com/krish_dewan_/',
+    bio: 'Sophomore @ Evergreen Valley High School',
+    image: 'krish.jpeg',
   },
   {
-    name: "Leah Altamirano",
-    position: "Director of Outreach",
-    website: "https://www.instagram.com/leahaltamirano/",
-    bio: "Senior @ Eagle Rock High School (Los Angeles, CA)",
-    image: "leah.jpeg",
+    name: 'Shaheryar Asad',
+    position: 'Director of External Research',
+    website: 'https://www.linkedin.com/in/shaheryar-asad-0089b7140',
+    bio: 'Senior @ University of California, Berkeley',
+    image: 'shaheryar.jpeg',
   },
   {
-    name: "Becky Montes",
-    position: "Director of Public Relations",
-    website: "https://www.instagram.com/_beckymontes/",
-    bio: "Senior @ John Marshall High School (Los Angeles, CA)",
-    image: "becky.jpeg",
+    name: 'Leah Altamirano',
+    position: 'Director of Outreach',
+    website: 'https://www.instagram.com/leahaltamirano/',
+    bio: 'Senior @ Eagle Rock High School (Los Angeles, CA)',
+    image: 'leah.jpeg',
   },
   {
-    name: "Jehan Idsassi",
-    position: "Podcast & Neuroscience Research",
-    website: " https://www.linkedin.com/in/jehan-idsassi-9399161bb/",
-    bio: "Junior @ Eleanor Roosevelt High School (Greenbelt, MD)",
-    image: "jehan.png",
+    name: 'Becky Montes',
+    position: 'Director of Public Relations',
+    website: 'https://www.instagram.com/_beckymontes/',
+    bio: 'Senior @ John Marshall High School (Los Angeles, CA)',
+    image: 'becky.jpeg',
   },
   {
-    name: "Varun Bommaji",
-    position: "Secretary",
-    website: "https://www.instagram.com/varunbommaji/",
-    bio: "Senior @ Evergreen Valley High School (San Jose, CA)",
-    image: "varun.jpeg",
+    name: 'Jehan Idsassi',
+    position: 'Podcast & Neuroscience Research',
+    website: ' https://www.linkedin.com/in/jehan-idsassi-9399161bb/',
+    bio: 'Junior @ Eleanor Roosevelt High School (Greenbelt, MD)',
+    image: 'jehan.png',
   },
   {
-    name: "Maha Idsassi",
-    position: "Podcast & Neuroscience Research",
-    bio: "Senior @ Eleanor Roosevelt High School (Greenbelt, MD)",
-    image: "maha.jpeg",
+    name: 'Maha Idsassi',
+    position: 'Podcast & Neuroscience Research',
+    bio: 'Senior @ Eleanor Roosevelt High School (Greenbelt, MD)',
+    image: 'maha.jpeg',
   },
   {
-    name: "Kavitha Ravi",
-    position: "Podcast & Neuroscience Research",
-    website: "https://www.instagram.com/kavi._.ravi/",
-    bio: "Junior @ Castilleja School (Palo Alto, CA)",
-    image: "kavitha.jpeg",
+    name: 'Kavitha Ravi',
+    position: 'Podcast & Neuroscience Research',
+    website: 'https://www.instagram.com/kavi._.ravi/',
+    bio: 'Junior @ Castilleja School (Palo Alto, CA)',
+    image: 'kavitha.jpeg',
   },
   {
-    name: "Sarang Kim",
-    position: "Neuroscience Research",
-    bio: "Senior @ Millard North High School (Omaha, NE)",
-    image: "sarang.JPG",
+    name: 'Sarang Kim',
+    position: 'Neuroscience Research',
+    bio: 'Senior @ Millard North High School (Omaha, NE)',
+    image: 'sarang.JPG',
   },
   {
-    name: "Srilaasya Nedunoori",
-    position: "Podcast & Neuroscience Research",
-    bio: "Senior @ Millard North High School (Omaha, NE)",
-    image: "srilaasya.JPG",
+    name: 'Srilaasya Nedunoori',
+    position: 'Podcast & Neuroscience Research',
+    bio: 'Senior @ Millard North High School (Omaha, NE)',
+    image: 'srilaasya.JPG',
   },
   {
-    name: "Vibha Kashyap",
-    position: "Neuroscience Research & Promotional Art",
-    bio: "Junior @ Evergreen Valley High School (San Jose, CA)",
-    image: "vibha.jpeg",
+    name: 'Vibha Kashyap',
+    position: 'Neuroscience Research & Promotional Art',
+    bio: 'Junior @ Evergreen Valley High School (San Jose, CA)',
+    image: 'vibha.jpeg',
   },
 ];
 
@@ -124,14 +124,15 @@ export default function About() {
               />
             </div>
             <p className="mx-2 font-normal text-center text-gray-500 md:text-left dark:text-gray-400 text-md">
-              Definitionally, ataraxia is defined as a state of serene calmness.
-              With countless challenges and difficulties – especially during
-              COVID-19 – it is essential to understand that different people are
-              experiencing different feelings and times. Our long-term goal is
-              to create an environment, a community, that is cognizant of the
-              situation of others – as well as up-to-date on the science behind
-              conditions – in order to effectively achieve ataraxia within our
-              community.
+              Definitionally, ataraxia is defined as a state of serene
+              calmness. With countless challenges and difficulties –
+              especially during COVID-19 – it is essential to
+              understand that different people are experiencing
+              different feelings and times. Our long-term goal is to
+              create an environment, a community, that is cognizant of
+              the situation of others – as well as up-to-date on the
+              science behind conditions – in order to effectively
+              achieve ataraxia within our community.
             </p>
           </div>
           <div className="mb-10 space-y-6">
@@ -146,13 +147,14 @@ export default function About() {
               />
             </div>
             <p className="mx-2 font-normal text-center text-gray-500 md:text-left dark:text-gray-400 text-md">
-              Ataraxia is currently dedicated to providing resources in
-              underprivileged populations and communities. Neurodiversity has
-              been proven to have links to racial and socioeconomic trends. Our
-              mission is to provide adequate resources to these populations,
-              such as: the homeless population. We teach fruitful stress
-              management techniques, so people can be in a better mental state
-              to be more productive and deal with challenges effectively.
+              Ataraxia is currently dedicated to providing resources
+              in underprivileged populations and communities.
+              Neurodiversity has been proven to have links to racial
+              and socioeconomic trends. Our mission is to provide
+              adequate resources to these populations, such as: the
+              homeless population. We teach fruitful stress management
+              techniques, so people can be in a better mental state to
+              be more productive and deal with challenges effectively.
             </p>
           </div>
         </div>
@@ -163,7 +165,10 @@ export default function About() {
           <div className="container px-5 py-8 mx-auto">
             <div className="flex flex-wrap -m-4">
               {volunteers.map((volunteer) => (
-                <div className="p-4 lg:w-1/4 md:w-1/2" key={volunteer}>
+                <div
+                  className="p-4 lg:w-1/4 md:w-1/2"
+                  key={volunteer}
+                >
                   <div className="flex flex-col items-center h-full text-center">
                     <img
                       alt={`Image of ${volunteer.name}`}
@@ -174,16 +179,18 @@ export default function About() {
                       <a
                         className={
                           volunteer.website
-                            ? "underline text-black dark:text-white hover:text-link-blue dark:hover:text-link-purple"
-                            : "cursor-text"
+                            ? 'underline text-black dark:text-white hover:text-link-blue dark:hover:text-link-purple'
+                            : 'cursor-text'
                         }
-                        href={volunteer.website ? volunteer.website : null}
+                        href={
+                          volunteer.website ? volunteer.website : null
+                        }
                       >
                         <h2
                           className={
                             volunteer.website
-                              ? "text-lg font-medium text-black hover:text-link-blue dark:hover:text-link-purple title-font dark:text-gray-200"
-                              : "text-lg font-medium text-black title-font dark:text-gray-200"
+                              ? 'text-lg font-medium text-black hover:text-link-blue dark:hover:text-link-purple title-font dark:text-gray-200'
+                              : 'text-lg font-medium text-black title-font dark:text-gray-200'
                           }
                         >
                           {volunteer.name}
@@ -220,16 +227,18 @@ export default function About() {
                       <a
                         className={
                           advisor.website
-                            ? "underline text-black dark:text-white hover:text-link-blue dark:hover:text-link-purple"
-                            : "cursor-text"
+                            ? 'underline text-black dark:text-white hover:text-link-blue dark:hover:text-link-purple'
+                            : 'cursor-text'
                         }
-                        href={advisor.website ? advisor.website : null}
+                        href={
+                          advisor.website ? advisor.website : null
+                        }
                       >
                         <h2
                           className={
                             advisor.website
-                              ? "text-lg font-medium text-black hover:text-link-blue dark:hover:text-link-purple title-font dark:text-gray-200"
-                              : "text-lg font-medium text-black title-font dark:text-gray-200"
+                              ? 'text-lg font-medium text-black hover:text-link-blue dark:hover:text-link-purple title-font dark:text-gray-200'
+                              : 'text-lg font-medium text-black title-font dark:text-gray-200'
                           }
                         >
                           {advisor.name}
