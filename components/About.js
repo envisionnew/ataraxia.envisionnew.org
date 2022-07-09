@@ -40,7 +40,7 @@ const volunteers = [
     name: 'Krish Dewan',
     position: 'Director of Fundraising',
     website: 'https://www.instagram.com/krish_dewan_/',
-    bio: 'Sophomore @ Evergreen Valley High School',
+    bio: 'Sophomore @ Evergreen Valley High School (San Jose, CA)',
     image: 'krish.jpeg',
   },
   {
