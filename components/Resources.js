@@ -59,7 +59,7 @@ const resources = [
   },
   {
     name: "M-N's SSDI Benefits Guide",
-    link: 'm-n-law.com/social-security-disability-insurance-benefits-guide/',
+    link: 'https://www.m-n-law.com/social-security-disability-insurance-benefits-guide/',
     description: [
       <p>
         <span className="font-semibold">Informational</span>: The
